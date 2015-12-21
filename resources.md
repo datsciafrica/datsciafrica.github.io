@@ -10,7 +10,7 @@ Lectures, tutorials and other relevant material
 
 Slides from the data science africa workshop, in 2015.
 
-[p1](slides/dsa15/150619 Nyeri Workshop Presentation_1.pptx)
+[p1](../slides/dsa15/150619 Nyeri Workshop Presentation_1.pptx)
 [p1](/slides/dsa15/Ciira_TraditionalMedicine.pdf)
 [p1](/slides/dsa15/DeKUT-DataScience-Workshop-Ernest-2015.pdf)
 [p1](/slides/dsa15/Final Differential Privacy Presentation.ipynb)
