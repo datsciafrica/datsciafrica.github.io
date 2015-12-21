@@ -3,14 +3,14 @@ layout: post
 title: Welcome to Data Science Africa
 ---
 
-Welcome to Data Science in Africa. Data from a vast array of sources is becoming available in many African countries. Machine learning and analysis are being applied to solve real problems on the ground.
+Data from a vast array of sources is becoming available in many African countries. Machine learning and analysis are being applied to solve real problems on the ground.
 
   In Africa, a number of problems in areas such as healthcare,
   agriculture, disaster response and wildlife conservation would
   benefit greatly if domain experts were exposed to data science
   techniques. These skills would allow practitioners to extract
   useful information from these abundant sources of raw data.
-  <br/> -- Dr. Ciira Maina
+-- Dr. Ciira Maina
 
 We at Data Science Africa aim to create a hub in the network of data science researchers across Africa, by,
 
