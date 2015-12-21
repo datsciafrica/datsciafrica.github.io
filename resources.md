@@ -16,7 +16,7 @@ Prestone Adie, Kenya Open Data Team
 
 [pptx](../slides/dsa15/150619 Nyeri Workshop Presentation_1.pptx)
 
-###Investigating Traditional Systems of Medicine Using Phylogenies Derived from Gene Sequences –
+###Investigating Traditional Systems of Medicine Using Phylogenies Derived from Gene Sequences
 Ciira Maina, DeKUT
 
 [pdf](../slides/dsa15/Ciira_TraditionalMedicine.pdf)
@@ -30,7 +30,7 @@ Michael Smith, University of Sheffield
 
 [ipython](../slides/dsa15/Final Differential Privacy Presentation.ipynb)
 
-###Humanitarian Data Exchange Project –
+###Humanitarian Data Exchange Project
 Reuben Cummings, UN OCHA
 
 [pptx](../slides/dsa15/HDX_DeKUT_presentation.pptx)
