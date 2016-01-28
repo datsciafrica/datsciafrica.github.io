@@ -9,13 +9,13 @@ name: Data Science Africa
 description: Making Data Science relevant for Africa
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png #TODO
+#avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png #TODO
 
 #
 # Flags below are optional
 #
 
-banner: "banner.png"
+avatar: assets/banner.png
 
 # Includes an icon in the footer for each username you enter
 footer-links:
