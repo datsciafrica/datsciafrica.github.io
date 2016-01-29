@@ -9,7 +9,7 @@ website: <a href="http://www.datascienceafrica.org/dsa2016/">www.datascienceafri
 
 contact: <a href="mailto:jquinn@cit.ac.ug">John Quinn</a>
 
-date: 26th June - 2nd July
+date: 26th June - 2nd July, 2016
 
 ##Past Events
 
