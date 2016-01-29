@@ -5,11 +5,11 @@ permalink: /events/
 ---
 
 ###Workshop on Data Science in Africa 2016
-website: TBC
+website: <a href="http://www.datascienceafrica.org/dsa2016/">www.datascienceafrica.org/dsa2016</a>
 
-contact: TBC
+contact: <a href="mailto:jquinn@cit.ac.ug">John Quinn</a>
 
-date: 26th June - 2nd July TBC
+date: 26th June - 2nd July
 
 ##Past Events
 
