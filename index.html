@@ -1,17 +1,430 @@
 ---
 layout: default
-title: Home
 ---
+<style type="text/css">
+    .hero  .banner a:hover {
+        background-color: #fff;
+    }
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+    .icon-box{
+        padding: 0px;
+    }
+    .icon-box img {
+        max-height: 80px !important;
+        width: auto !important;    }
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+    .helper {
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle;
+    }
 
-      <div class="entry">
-        {{ post.content }}
-      </div>
-    </article>
-  {% endfor %}
+    .v-align {
+        position: absolute;  
+        top: 0;  
+        bottom: 0;  
+        left: 0;  
+        right: 0;  
+        margin: auto;
+    }
+
+</style>
+
+<!-- Start Hero -->
+<div class="hero" style="background: url('{{ site.baseurl }}/img/{{ site.hero.hero_img }}') no-repeat; background-size: cover; ">
+    <div class="banner container-fluid">
+        <a href="{{ site.baseurl }}/dsa2016" style="
+                display: block;
+                text-decoration: none;
+        ">
+        <div class="col-sm-offset-8 col-sm-4" style="
+                
+                
+                /*background-color: #999;*/
+                background-color: #369b9f;
+
+                /*border-radius: 5px;
+                box-shadow: 0px 0px 3px 2px #777;*/
+                padding: 20px;
+                margin-top: 20px;
+                color: #ffffff; 
+                /*border: 1px solid #ccc;*/
+                border-top: 4px solid white; 
+                border-bottom: 2px solid grey;
+                opacity: 0.8; 
+                /*text-shadow: 1px 1px 3px #333;*/
+        ">
+            <div class="" style="
+                font-weight: bold;
+                font-size: 18px;
+
+            ">Data Science Africa 2016</div>
+            <div>June 30<sup>th</sup>  - July 1<sup>st</sup> 2016</div>
+            <div>Kampala, Uganda</div>
+        </div>
+        </a>
+    </div>
+    <div class="hero-content">
+        <div class="container-fluid">
+            <div class="">
+                <h1>Data Science Africa</h1>
+                <p>Welcome to the official website of Data Science Africa</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid" style="height:700px;" >
+
+        <div class="col-sm-6 col-sm-offset-6 col-md-4 col-md-offset-8 form" style="background-color:transparent;">
+            <h3></h3>
+
+        </div>
+
+    </div>
 </div>
+<!-- End Hero -->
+
+<!-- Start Banner -->
+<!-- <div id="" class="" style="">
+    <div class="container-fluid">
+        <h1 class="section-title" style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;">About Data Science Africa</h1>
+        
+        
+        <div class="row">
+        </div>
+    </div>
+</div> -->
+<!-- End Banner -->
+
+<!-- Start About -->
+<div id="about" class="about" style="background-color: #F7F7F7">
+    <div class="container-fluid">
+        <h1 class="section-title" style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;">About Data Science Africa</h1>
+        
+        
+        <div class="row">
+        
+        
+
+<p>Data from a vast array of sources is becoming available in many African countries. Machine learning and analysis are being applied to solve real problems on the ground.</p>
+
+We at Data Science Africa aim to create a hub in the network of data science researchers across Africa, by,
+<ol>
+   <li> Providing an index of researchers and practitioners in the field of Data Science in Africa</li>
+    <li>A resource of lectures and notes</li>
+    <li>Links and sources of information and potential data sources</li>
+    <li>In the future a discussion forum to discuss Data Science questions</li>
+    <li>An online presence for data science conferences and workshops</li>
+</ol>
+<!-- <emp>Written on March 3, 2014 </emp> -->
+            
+
+        
+        
+        </div>
+
+<!--
+        <div class="row">
+            <div class="col-sm-4 col-md-4">
+            	<h3 align="center"  style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;">Conferences</h3>
+            	<img src="{{ site.baseurl }}/img/conference.jpg" class="img-circle  col-md-offset-3" width="150">
+            	<p align="center">The Data Science Conference is a high quality, high class conference and I am proud to support it and be affiliated with it.
+            	</p>
+            </div>
+            <div class="col-sm-4 col-md-4">
+            	<h3 align="center" style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;">Workshops</h3>
+            	<img src="{{ site.baseurl }}/img/workshops.jpg" class="img-circle  col-md-offset-3" width="150">
+            	<p align="center">Data science Africa workshop will provide a platform for experts from government, private sector (banking, insurance, telecoms, utility companies in water and energy etc), academia, civil society, non-governmental organisations and development partners discuss and charter ways of using big data and data science to monitor and track progress in attaining global goals in Africa.
+            	</p>
+            </div>
+            <div class="col-sm-4 col-md-4">
+            	<h3 align="center" style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;">Summer school</h3>
+            	<img src="{{ site.baseurl }}/img/summerschool.png" class="img-circle  col-md-offset-3" width="200">
+            	<p align="center">Data science seeks to exploit advances in machine learning and statistics to make sense of the growing amounts of data available from various sources. In Africa, a number of problems in areas such as healthcare, agriculture, disaster response and wildlife conservation would benefit greatly if domain experts were exposed to data science techniques. These skills would allow practitioners to extract useful information from these abundant sources of raw data.
+            	</p>
+            </div>
+
+        </div>-->
+    </div>
+</div>
+<!-- End About -->
+
+<!-- Start Treatments -->
+<div id="treatments" class="treatments" style="background-color: #FFFFFF">
+    <div class="container-fluid">
+        <h2 class="section-title" style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;">PARTNERS
+         <svg class="icon icon-chain"><use xlink:href="#icon-chain"></use></svg>
+         </h2>
+        <!-- <LEGEND style="text-align: center">Organizers</LEGEND> -->
+        	<div class="row">
+               <div class="col-sm-6 col-md-3">
+                    <div class="icon-box" style="position: relative; min-height: 80px;">
+                        <!-- <span class="helper"></span> -->
+                    	<img class="v-align" style="" src="{{ site.baseurl }}/img/AI.png">
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="icon-box">
+                    	<img src="{{ site.baseurl }}/img/sheffield.png">
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="icon-box">
+                    	<img src="{{ site.baseurl }}/img/makerere.png">
+                    </div>
+                </div>
+                <!-- <div class="col-sm-6 col-md-3">
+                    <div class="icon-box">
+                        <img src="{{ site.baseurl }}/img/muk.png">
+                    </div>
+                </div> -->
+                <div class="col-sm-6 col-md-3">
+                    <div class="icon-box">
+                    	<img src="{{ site.baseurl }}/img/ibm_africa.jpg">
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="icon-box">
+                        <img src="{{ site.baseurl }}/img/plklogo.png" style="height: 80px;">
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="icon-box">
+                        <img src="{{ site.baseurl }}/img/dedan_kimathi.jpg" style="height: 80px;">
+                    </div>
+                </div>
+            </div>
+<!--
+        	<LEGEND style="text-align: center">With support of</LEGEND>
+        	<div class="row">
+               <div class="col-sm-6 col-md-3">
+                    <div class="icon-box">
+                    	<img src="{{ site.baseurl }}/img/bills.png">
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="icon-box">
+                    	<img src="{{ site.baseurl }}/img/google.png">
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="icon-box">
+                    	<img src="{{ site.baseurl }}/img/califonia.jpeg" width="100">
+                    </div>
+                </div>
+                 <div class="col-sm-6 col-md-3">
+                    <div class="icon-box">
+                        <img src="{{ site.baseurl }}/img/mcrops.png" width="100">
+                    </div>
+                </div>
+            </div>
+-->
+    </div>
+</div>
+<!-- End Treatments -->
+
+<!-- Start Our team -->
+<!--
+<div id="team" class="team" style="background-color: #fff; background-image: url('{{ site.baseurl }}/img/bg.png');">
+    <h2 class="section-title" style="color: #000; font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;">EVENTS OVER THE YEARS <svg class="icon icon-calendar"><use xlink:href="#icon-calendar"></use></svg></h2>
+    <div id="team-carousel" class="col-md-offset-3">
+
+
+        <div class="expandable-box"  style="background-color: #000;">
+            <div class="expandable-box-top">
+                <img src="{{ site.baseurl }}/img/{{ member.image }}" alt="{{ member.name }}">
+                <h3 style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;">
+                    Data Science Conference
+                </h3>
+ 				<h4 style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;">
+                    2016
+                </h4>
+            </div>
+            <div class="expandable-box-bottom">
+
+                	<a href="http://air.ug/dsa2016/">Summer School</a>
+	                <a href="http://air.ug/dsa2016/">Workshop</a>
+
+            </div>
+        </div>
+        <div class="expandable-box">
+            <div class="expandable-box-top">
+                <img src="{{ site.baseurl }}/img/{{ member.image }}" alt="{{ member.name }}">
+             <h3 style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;">
+                    Data Science Conference
+                </h3>
+ 				<h4 style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;">
+                    2015
+                </h4>
+            </div>
+            <div class="expandable-box-bottom">
+
+                	<a href="http://air.ug/dsa2016/">Summer School</a>
+	                <a href="http://air.ug/dsa2016/">Workshop</a>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+-->
+<!-- End Our team -->
+
+<!-- Start Testimonials -->
+<!--
+<div id="testimonials" class="" style="background-color: #efefef; text-align: center; ">
+    <div class="overlay-container">
+        <div class="overlay"></div>
+        <div class="container-fluid" >
+            <div id="testimonial-carousel">
+                {% for testimonial in site.data.testimonials %}
+                    <div class="testimonial-item">
+                        <svg class="icon icon-quote-left"><use xlink:href="#icon-quote-left"></use></svg>
+                        <blockquote>
+                            <p>{{ testimonial.description }}</p>
+                            <footer>
+                                {{ testimonial.name }}
+                                <small>{{ testimonial.title }}</small>
+                            </footer>
+                        </blockquote>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+-->
+<!-- End Testimonials -->
+
+<!-- Start news -->
+<!--
+<div id="gallery" class="gallery container">
+ <h1 class="section-title" style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;">
+ 	Latest News
+ </h1>
+ <div class="row">
+ 	<div class="col-sm-2 col-md-2"></div>
+ 	<div class="col-sm-8 col-md-8" style="text-align: center; margin-top: -50px;">
+		 <h3><a>Call for Papers</a></h3>
+		 <p>
+		 	DevFest Istanbul 2014 will be held 6th of December in one of the most beautiful cities in the world: Istanbul. If you want to be part of this great event and community go ahead and fill the form. Presenters – who should speak at the DevFest Conf.
+		 </p>
+	</div>
+ </div>
+
+</div>
+-->
+<!-- End news -->
+
+<!-- Start speakers -->
+<!--
+<legend></legend>
+<div id="location" class ="location" >
+	<h1 class="section-title" style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; margin-bottom: -5px;">
+ 		Resources
+ 	</h1>
+ 	<div class="row">
+       <div class="col-sm-6 col-md-3">
+            <div class="icon-box">
+            	<h3><a>Tutorials</a></h3>
+            	<ul class="nav nav-stacked">
+            		<li>
+            			<a href="https://www.youtube.com/watch?v=7cGwYMhPDUY">
+            				Introduction to R
+            				<svg class="icon icon-chevron-right pull-right" style="margin-top: 5px;">
+            					<use xlink:href="#icon-chevron-right"></use>
+            				</svg>
+            			</a>
+            		</li>
+            		<li>
+            			<a href="https://www.youtube.com/watch?v=32o0DnuRjfg">
+            				R - Data Analysis
+            				<svg class="icon icon-chevron-right pull-right" style="margin-top: 5px;">
+            					<use xlink:href="#icon-chevron-right"></use>
+            				</svg>
+            			</a>
+            		</li>
+
+            	</ul>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+            <div class="icon-box">
+            	<h3><a>Publications</a></h3>
+            	<ul class="nav nav-stacked">
+            		<li>
+            			<a href="http://air.ug/papers/AutomatedMalariaDiagnosisChapter.pdf">
+            				Mobile Malaria Diagnosis
+            				<svg class="icon icon-chevron-right pull-right" style="margin-top: 5px;">
+            					<use xlink:href="#icon-chevron-right"></use>
+            				</svg>
+            			</a>
+            		</li>
+            		<li>
+            			<a href="http://air.ug/papers/CompSust_AI_Magazine_Fall2014.pdfComputational Sustainability">
+            				Computational Sustainability
+            				<svg class="icon icon-chevron-right pull-right" style="margin-top: 5px;">
+            					<use xlink:href="#icon-chevron-right"></use>
+            				</svg>
+            			</a>
+            		</li>
+            	</ul>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+            <div class="icon-box">
+            	<h3><a>Guidelines</a></h3>
+            	<ul class="nav nav-stacked">
+            		<li>
+            			<a href="http://www.datascienceassn.org/code-of-conduct.html">
+            				Code of Conduct
+            				<svg class="icon icon-chevron-right pull-right" style="margin-top: 5px;">
+            					<use xlink:href="#icon-chevron-right"></use>
+            				</svg>
+            			</a>
+            		</li>
+            	</ul>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+            <div class="icon-box">
+            	<h3><a>Algorithms</a></h3>
+            	<ul class="nav nav-stacked">
+            		<li>
+            			<a href="http://www.kdnuggets.com/2015/05/top-10-data-mining-algorithms-explained.html">
+            				10 Data Mining algorithms
+            				<svg class="icon icon-chevron-right pull-right" style="margin-top: 5px;">
+            					<use xlink:href="#icon-chevron-right"></use>
+            				</svg>
+            			</a>
+            		</li>
+
+            	</ul>
+            </div>
+        </div>
+
+    </div>
+</div>
+-->
+
+
+<!-- Start 3 columns -->
+<div id="contact" class="contact">
+	<div class="jumbotron">
+	    <h2 class="section-title" style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;">
+	 		Contact us
+	 	</h2>
+	 	<div class="row">
+	 		<div class="col-sm-4 col-md-4"></div>
+	 		<div class="col-sm-4 col-md-4" style="text-align:center; margin-top: -50px; margin-bottom: -80px;">
+		        <ul class="nav">
+		            {% if site.contact.phone %}<li><strong> 
+                        <svg class="icon icon-p"><use xlink:href="#icon-phone"></use></svg>
+                    </strong> {{ site.contact.phone }}</li>{% endif %}
+		            {% if site.contact.email %}<li><strong>Email:</strong> {{ site.contact.email }}</li>{% endif %}
+		        </ul>
+		    </div>
+	    </div>
+    </div>
+</div>
+<!-- End 3 columns -->

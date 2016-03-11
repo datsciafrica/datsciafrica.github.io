@@ -1,0 +1,9 @@
+/* ABOUT
+-------------------------------------------------*/
+.about {
+    @extend %space;
+    .media {
+        margin-bottom: $space;
+        font-size: 11px;
+    }
+}
