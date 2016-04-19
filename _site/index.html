@@ -66,7 +66,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand scroll" href="#top"><img src="img/logo.png" alt="Data Science | Conference" height="200"></a>
+            <a class="navbar-brand scroll" href="#top"><img src="img/logo.png" alt="Data Science | Conference" style="height: 115px; margin-top-top: 5px;"></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -147,7 +147,7 @@
                 font-size: 18px;
 
             ">Data Science Africa 2016</div>
-            <div>June 30<sup>th</sup>  - July 1<sup>st</sup> 2016</div>
+            <div>June 27<sup>th</sup>  - July 1<sup>st</sup> 2016</div>
             <div>Kampala, Uganda</div>
         </div>
         </a>
@@ -155,8 +155,8 @@
     <div class="hero-content">
         <div class="container-fluid">
             <div class="">
-                <h1>Data Science Africa</h1>
-                <p>Welcome to the official website of Data Science Africa</p>
+<!--                <h1>Data Science Africa</h1>-->
+<!--                <h1>Welcome to the official website of Data Science Africa</h1>-->
             </div>
         </div>
     </div>
@@ -238,50 +238,11 @@ We at Data Science Africa aim to create a hub in the network of data science res
 <!-- End About -->
 
 <!-- Start Treatments -->
+<!--
 <div id="treatments" class="treatments" style="background-color: #FFFFFF">
     <div class="container-fluid">
-        <h2 class="section-title" style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;">PARTNERS
-         <svg class="icon icon-chain"><use xlink:href="#icon-chain"></use></svg>
-         </h2>
-        <!-- <LEGEND style="text-align: center">Organizers</LEGEND> -->
-        	<div class="row">
-               <div class="col-sm-6 col-md-3">
-                    <div class="icon-box" style="position: relative; min-height: 80px;">
-                        <!-- <span class="helper"></span> -->
-                    	<img class="v-align" style="" src="/img/AI.png">
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3">
-                    <div class="icon-box">
-                    	<img src="/img/sheffield.png">
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3">
-                    <div class="icon-box">
-                    	<img src="/img/makerere.png">
-                    </div>
-                </div>
-                <!-- <div class="col-sm-6 col-md-3">
-                    <div class="icon-box">
-                        <img src="/img/muk.png">
-                    </div>
-                </div> -->
-                <div class="col-sm-6 col-md-3">
-                    <div class="icon-box">
-                    	<img src="/img/ibm_africa.jpg">
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3">
-                    <div class="icon-box">
-                        <img src="/img/plklogo.png" style="height: 80px;">
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3">
-                    <div class="icon-box">
-                        <img src="/img/dedan_kimathi.jpg" style="height: 80px;">
-                    </div>
-                </div>
-            </div>
+-->
+        
 <!--
         	<LEGEND style="text-align: center">With support of</LEGEND>
         	<div class="row">
@@ -307,8 +268,10 @@ We at Data Science Africa aim to create a hub in the network of data science res
                 </div>
             </div>
 -->
+<!--
     </div>
 </div>
+-->
 <!-- End Treatments -->
 
 <!-- Start Our team -->
@@ -529,7 +492,7 @@ We at Data Science Africa aim to create a hub in the network of data science res
 	 		<div class="col-sm-4 col-md-4" style="text-align:center; margin-top: -50px; margin-bottom: -80px;">
 		        <ul class="nav">
 		            
-		            <li><strong>Email:</strong> info@datascienceafrica.org</li>
+		            <li><strong>Email:</strong> datasciafrica@gmail.com</li>
 		        </ul>
 		    </div>
 	    </div>
@@ -542,6 +505,7 @@ We at Data Science Africa aim to create a hub in the network of data science res
 <footer class="main-footer">
     <div class="container-fluid">
         
+<!--
         <ul class="social">
             <li><a href="http://facebook.com"><svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg></a></li>
             <li><a href="http://twitter.com"><svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg></a></li>
@@ -550,17 +514,28 @@ We at Data Science Africa aim to create a hub in the network of data science res
             <li><a href="skype:obaez_design?userinfo"><svg class="icon icon-skype"><use xlink:href="#icon-skype"></use></svg></a></li>
             
         </ul>
+-->
 
         <small> © 2016 Data Science Africa Conference - All rights reserved </small>
 
     </div>
 </footer>
-<!-- End Footer -->
+<!-- End Footer -->_
+
     
     
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
     <script src="/js/all.min.js"></script>
+    <script type="text/javascript">
+        $( window ).scroll(function() {
+             if($(window).scrollTop() > 150){
+               $( ".navbar-brand img" ).height(55);
+             }else{
+                 $( ".navbar-brand img").height(115);
+             }
+        });
+    </script>
 </body>
 </html>

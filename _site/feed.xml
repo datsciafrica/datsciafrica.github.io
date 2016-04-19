@@ -5,9 +5,9 @@
     <description>Conference website.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 03 Mar 2016 19:56:14 +0300</pubDate>
-    <lastBuildDate>Thu, 03 Mar 2016 19:56:14 +0300</lastBuildDate>
-    <generator>Jekyll v3.1.1</generator>
+    <pubDate>Thu, 24 Mar 2016 12:20:29 +0300</pubDate>
+    <lastBuildDate>Thu, 24 Mar 2016 12:20:29 +0300</lastBuildDate>
+    <generator>Jekyll v3.0.3</generator>
     
   </channel>
 </rss>

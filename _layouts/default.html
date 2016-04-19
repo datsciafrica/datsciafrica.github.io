@@ -18,5 +18,14 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
     <script src="{{ site.baseurl }}/js/all.min.js"></script>
+    <script type="text/javascript">
+        $( window ).scroll(function() {
+             if($(window).scrollTop() > 150){
+               $( ".navbar-brand img" ).height(55);
+             }else{
+                 $( ".navbar-brand img").height(115);
+             }
+        });
+    </script>
 </body>
 </html>
