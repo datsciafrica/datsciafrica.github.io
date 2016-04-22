@@ -52,7 +52,7 @@ copyright: © 2016 Data Science Africa Conference - All rights reserved
 gem: 'kramdown'
 
 # Build settings
-# markdown: kramdown
+markdown: kramdown
 
 exclude: [
     package.json,
