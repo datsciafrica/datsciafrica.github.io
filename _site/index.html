@@ -74,13 +74,15 @@
             <ul class="nav navbar-nav navbar-right">
                 <li><a class="scroll" href="#top">HOME</a></li>
                 <li><a class="scroll" href="#about">ABOUT DSA</a></li>
-                <li><a class="scroll" href="#treatments">PARTNERS</a></li>
+                <li><a class="scroll" href="/resources.html">RESOURCES</a></li>
+                <!-- <li><a class="scroll" href="#resources">RESOURCES</a></li> -->
+                <!-- <li><a class="scroll" href="#resources">RESOURCES</a></li> -->
                 <li><a class="scroll" href="/dsa2016">EVENTS</a></li>
-<!--
-                <li><a class="scroll" href="#testimonials">TESTIMONIALS</a></li>
-                <li><a class="scroll" href="#gallery">NEWS</a></li>
-                <li><a class="scroll" href="#location">RESOURCES</a></li>
--->
+
+                <li><a class="scroll" href="/dir.html">DIRECTORY</a></li>
+                <!-- <li><a class="scroll" href="#gallery">NEWS</a></li>
+                <li><a class="scroll" href="#location">RESOURCES</a></li> -->
+
                 <li><a class="scroll" href="#contact">CONTACT US</a></li>
             </ul>
         </div>
@@ -89,7 +91,23 @@
 <!-- End Header -->
 
  
-        <style type="text/css">
+        <!-- module Jekyll
+  class MarkdownTag < Liquid::Tag
+    def initialize(tag_name, text, tokens)
+      super
+      @text = text.strip
+    end
+    require "kramdown"
+    def render(context)
+      tmpl = File.read File.join Dir.pwd, "_includes", @text
+      site = context.registers[:site]
+      tmpl = (Liquid::Template.parse tmpl).render site.site_payload
+      html = Kramdown::Document.new(tmpl).to_html
+    end
+  end
+end
+Liquid::Template.register_tag('markdown', Jekyll::MarkdownTag) -->
+<style type="text/css">
     .hero  .banner a:hover {
         background-color: #fff;
     }
@@ -480,10 +498,9 @@ We at Data Science Africa aim to create a hub in the network of data science res
 </div>
 -->
 
-
 <!-- Start 3 columns -->
 <div id="contact" class="contact">
-	<div class="jumbotron">
+	<div class="jumbotron" style="margin-bottom: 0">
 	    <h2 class="section-title" style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;">
 	 		Contact us
 	 	</h2>
@@ -492,13 +509,14 @@ We at Data Science Africa aim to create a hub in the network of data science res
 	 		<div class="col-sm-4 col-md-4" style="text-align:center; margin-top: -50px; margin-bottom: -80px;">
 		        <ul class="nav">
 		            
-		            <li><strong>Email:</strong> datasciafrica@gmail.com</li>
+		            <li><strong>Email:</strong> info@datascienceafrica.org</li>
 		        </ul>
 		    </div>
 	    </div>
     </div>
 </div>
 <!-- End 3 columns -->
+<!-- <script src="http://github.github.com/github-flavored-markdown/scripts/showdown.js"></script> -->
 
            
     <!-- Start Footer -->
