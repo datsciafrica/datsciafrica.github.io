@@ -1,0 +1,30 @@
+- group: AI Research Group  Makerere University 
+  Country: Uganda
+  website: AI Research Group
+  url: http://air.ug/
+  contact: John Quinn
+  mail: mailto:jquinn@cit.ac.ug
+  description: The AI research group at Makerere University specialises in the application of artificial intelligence and data                  science —including, for example, methods from machine learning, computer vision and predictive analytics—to                      problems in the developing world.
+
+- group: IBM Kenya
+  Country: Kenya
+  website: IBM Research Africa
+  url: http://www.research.ibm.com/articles/africa.shtml
+  description: IBM Research-Africa is IBM''s 12th global laboratory and the first commercial technology research facility on the                     continent conducting both applied and far-reaching exploratory research.""
+
+- group: Humanitarian Data Exchange (HDX) Data Lab - Nairobi
+  Country: Kenya
+  website: HDX
+  url: https://data.hdx.rwlabs.org/
+
+- group: Ciira wa Maina at Dedan Kimathi University of Technology, Nyeri
+  Country: Kenya
+  website: Ciira''s homepage
+  url: https://sites.google.com/site/cwamainadekut/
+
+- group:
+  Country: South Africa
+
+- group: Machine Learning Research Group, Sheffield University 
+  Country: Outside Africa
+    

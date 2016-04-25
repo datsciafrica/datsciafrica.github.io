@@ -1,0 +1,48 @@
+- title: Free Datasets For All
+  presenter: Prestone Adie 
+  affiliation: Kenya Open Data Team 
+  type: pptx
+  resource: 150619_Nyeri_Workshop_Presentation_1.pptx
+
+- title: Investigating Traditional Systems of Medicine Using Phylogenies Derived from Gene Sequences
+  presenter: Ciira Maina
+  affiliation: DeKUT
+  type: pdf
+  resource: Ciira_TraditionalMedicine.pdf
+
+- title: Automated Monitoring of Viral Cassava Disease
+  presenter: Ernest Mwebaze, 
+  affiliation: Makerere University
+  type: pdf
+  resource: DeKUT-DataScience-Workshop-Ernest-2015.pdf
+
+- title: Differential Privacy
+  presenter: Michael Smith 
+  affiliation: University of Sheffield
+  type: ipynb
+  resource: Final_Differential_Privacy_Presentation.ipynb
+
+- title: Humanitarian Data Exchange Project
+  presenter: Reuben Cummings
+  affill=iation: UN OCHA
+  type: pptx
+  resource: HDX_DeKUT_presentation.pptx
+
+- title: The Punya Mobile Application Development Platform
+  presenter: Julius Adebayo
+  affiliation: MIT
+  type: pdf
+  resource: Julius_Data_Science_Worksho_Kenya.pdf
+
+- title: Pivoting Entity-Attribute-Value data Using MapReduce for Bulk Extraction
+  presenter: Augustus Kamau
+  affiliation: DeKUT
+  type: pdf
+  resource: Pivoting_EAV_data.pdf
+
+#- title: Umati Monitoring Dangerous Speech Online
+#  presenter: Sidney Ochieng
+#  affiliation: iHub
+#  type: pptx
+#  resource: [pptx (part 1)]({{dsa15path}}/slides/dsa15/Presentation Umati Phase 1.pptx)
+##            [pptx (part 2)]({{dsa15path}}/slides/dsa15/Presentation Umati Phase 2.pptx)
