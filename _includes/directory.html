@@ -1,0 +1,28 @@
+<div id="directory" class="" style="background-color: #F7F7F7; text-align: center; padding-top:50px">
+   
+  <div class="container-fluid" >
+    <h1 class="section-title" style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;">Directory</h1>
+    A list of groups and researchers in the field of Africa Data Science;<br/>
+    <hr style='border-bottom:3px solid black; max-width:50px '/>
+    <div >
+      {% for Country in site.data.directory %}
+      <div class="testimonial-item">
+	<!--                        <svg class="icon icon-quote-left"><use xlink:href="#icon-quote-left"></use></svg>-->
+        
+        {% for group in site.data.directory %}
+        
+        {% if Country.group == group.group %}
+        <h5>{{group.group}}, &nbsp;{{Country.Country}}</h5>
+        <a href={{group.url}}>{{group.website}}</a>
+        {% if group.contact !='' %} <a href=mailto:{{group.mail}}>{{group.contact}}</a> {% endif %}
+        <p>{% if group.description !='' %} {{group.description}} {% endif %}</p>
+        
+        {% endif %}
+        
+        {% endfor %}
+        <hr style='border-bottom:1px solid black; max-width:100px '/>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>

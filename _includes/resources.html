@@ -1,0 +1,26 @@
+<div id="resources" class="" style="background-color: #efefef; text-align: center; padding-top:50px">
+   
+  <div class="container-fluid" >
+    <h1 class="section-title" style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;">Resources</h1>
+    Lectures, tutorials and other relevant material<br/>
+
+    Workshop on Data Science in Africa 2015<br/>
+    
+    Slides from the data science africa workshop, in 2015.<br/>
+    <hr style='border-bottom:3px solid black; max-width:50px '/>
+    <div >
+      {% for resource in site.data.resources %}
+      <div class="testimonial-item">
+	<!--                        <svg class="icon icon-quote-left"><use xlink:href="#icon-quote-left"></use></svg>-->
+        <blockquote>
+          <h5>{{ resource.title }}</h5> <a href='{{site.baseurl}}/slides/dsa15/{{resource.resource}}'>{{resource.type}}</a>
+          <footer>
+            {{ resource.presenter }} &nbsp; {{ resource.affiliation }}
+          </footer>
+        </blockquote>
+        <hr/>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>

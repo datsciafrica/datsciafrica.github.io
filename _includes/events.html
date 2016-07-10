@@ -1,0 +1,10 @@
+<div id="events" class="events" style="background-color: #efefef">
+  <div class="container-fluid" >
+    <h1 class="section-title" style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;">Events</h1>
+    <ul>
+    {% for repository in site.github.public_repositories %}{% if repository.has_pages %}{% unless repository.name contains 'github.io' %}<li><a href='./{{ repository.name }}'>{{ repository.name }}</a> {{ repository.description }} </li>
+{% endunless %}{% endif %}{% endfor %}
+    </ul>
+  </div>
+</div>
+    
