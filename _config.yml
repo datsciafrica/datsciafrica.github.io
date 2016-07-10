@@ -1,10 +1,13 @@
 # Site settings
-title: Data Science | Conference
+title: Data Science Africa
 description: "Conference website."
+banner: gazzelle.jpg
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the name of your domain
+url: "http://www.datascienceafrica.org" # the name of your domain
 logo_url: img/logo.png
 # logo_url: svg/min/logo.svg
+
+email: info@datascienceafrica.org
 
 # Hero
 hero:
@@ -17,34 +20,9 @@ hero:
 # Contact form
 api_token: # Enter API token here
 
-# Contact info
-contact:
-    phone:
-    emergency:
-    email: info@datascienceafrica.org
-    address: Von schroeders 273, <br> Viña del mar - Chile
-
-# Opening hours
-monday_friday: 9:00 – 18:00
-saturday: 10:00 – 17:00
-sunday: 10:00 – 15:00
-
 # Testimonials
 testimonials:
     testimonials_img: parallax.jpg
-
-# Map
-map:
-    zoom: 17
-    address: Von schroeders 273, Viña del mar, Chile
-    address_details: svg/min/logo.svg
-
-# Social settings
-facebook: http://facebook.com
-twitter: http://twitter.com
-instagram: http://instagram.com
-youtube: http://youtube.com
-skype: skype:obaez_design?userinfo
 
 
 # Footer
@@ -64,6 +42,13 @@ exclude: [
     .gitignore
 ]
 
-# Theme Settings
 analytics:
+  google:
+    tracking_id: UA-80484960-1
+
+video:
+  height: 315
+  width: 560
+
+# Theme Settings
 google_verification:
