@@ -1,30 +1,54 @@
-- group: AI Research Group  Makerere University 
+- group: AI Research Group, Makerere University 
   Country: Uganda
   website: AI Research Group
   url: http://air.ug/
+  contact: Ernest Mwebaze
+  description: >
+    The AI research group at Makerere University specialises in the
+    application of artificial intelligence and data science —including,
+    for example, methods from machine learning, computer vision and
+    predictive analytics—to problems in the developing world.
+  logo:
+  
+- group: Pulse Lab Kampala
+  Country: Uganda
+  url: http://www.unglobalpulse.org/kampala
   contact: John Quinn
-  mail: mailto:jquinn@cit.ac.ug
-  description: The AI research group at Makerere University specialises in the application of artificial intelligence and data                  science —including, for example, methods from machine learning, computer vision and predictive analytics—to                      problems in the developing world.
-
+  description: >
+    The first innovation lab in Africa, Pulse Lab Kampala brings together
+    data scientists, data engineers, partnership specialists, academics
+    and technical experts to generate high impact data analysis tools to
+    address development challenges. These innovative tools support UN partners
+    and government in anticipating and responding to poverty, impacts of
+    natural disasters, epidemics and food security by leveraging new sources
+    of digital ‘Big Data’ (such as social media, mobile data, online
+    information) and real-time analytics. Through partnerships, and in
+    alliance with the Government, Pulse Lab Kampala acts as an ecosystem
+    catalyst. In addition to keynoting regional conferences on data
+    innovation, the Lab conducts learning sessions for UN partners and
+    workshops for government and academic partners.
+  logo: 
 - group: IBM Kenya
   Country: Kenya
   website: IBM Research Africa
   url: http://www.research.ibm.com/articles/africa.shtml
-  description: IBM Research-Africa is IBM''s 12th global laboratory and the first commercial technology research facility on the                     continent conducting both applied and far-reaching exploratory research.""
-
+  description: IBM Research-Africa is IBM's 12th global laboratory and the first commercial technology research facility on the continent conducting both applied and far-reaching exploratory research.
+  log: 
 - group: Humanitarian Data Exchange (HDX) Data Lab - Nairobi
   Country: Kenya
   website: HDX
   url: https://data.hdx.rwlabs.org/
-
-- group: Ciira wa Maina at Dedan Kimathi University of Technology, Nyeri
+  logo: 
+- group: Dedan Kimathi University of Technology, Nyeri
   Country: Kenya
-  website: Ciira''s homepage
+  contact: Ciira Maina
+  website: Ciira's homepage
   url: https://sites.google.com/site/cwamainadekut/
-
-- group:
-  Country: South Africa
-
-- group: Machine Learning Research Group, Sheffield University 
-  Country: Outside Africa
-    
+  logo:
+  
+- group: ML@SITraN, University of Sheffield
+  Country: UK
+  contact: Neil Lawrence
+  website: ML@SITraN
+  url: http://sheffieldml.github.io
+  logo: 
