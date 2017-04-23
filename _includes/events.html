@@ -2,10 +2,10 @@
   <div class="container-fluid" >
     <h1 class="section-title" style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;">Events</h1>
     <ul>
-    {% for repository in site.github.public_repositories reversed %}{% if repository.has_pages %}{% if repository.name contains 'dsa' %}<li><a href='./{{ repository.name }}'>{{ repository.name | upcase }}</a> {{ repository.description }} </li>
+    {% for repository in site.github.public_repositories reversed %}{% if repository.has_pages %}{% if repository.name contains 'dsa' %}<li><a href='http://{{site.url}}/{{ repository.name }}'>{{ repository.name | upcase }}</a> {{ repository.description }} </li>
 {% endif %}{% endif %}{% endfor %}
 
-    {% for repository in site.github.public_repositories reversed %}{% if repository.has_pages %}{% if repository.name contains 'gpss' %}<li><a href='./{{ repository.name }}'>{{ repository.name | upcase }}</a> {{ repository.description }} </li>
+    {% for repository in site.github.public_repositories reversed %}{% if repository.has_pages %}{% if repository.name contains 'gpss' %}<li><a href='http://{{site.url}}/{{ repository.name }}'>{{ repository.name | upcase }}</a> {{ repository.description }} </li>
 {% endif %}{% endif %}{% endfor %}
     </ul>
   </div>
