@@ -2,7 +2,7 @@
 title: Data Science Africa
 description: "Conference website."
 banner: gazzelle.jpg
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://www.datascienceafrica.org" # the name of your domain
 logo_url: img/logo.png
 # logo_url: svg/min/logo.svg
