@@ -10,14 +10,14 @@ logo_url: img/logo.png
 email: info@datascienceafrica.org
 
 notice:
-  url: /dsa2017/
+  url: /dsa2018/
   text: | # From here to "school:"
     <div class="" style="
                         font-weight: bold; 
                         font-size: 18px;
 
-                        ">Data Science Africa 2017</div>
-    <div>July 17<sup>th</sup>  - July 21<sup>st</sup> 2017</div>
+                        ">Data Science Africa 2018</div>
+    <div>May 31<sup>st</sup>  - June 8<sup>th</sup> 2018</div>
     <div>Arusha, Tanzania</div>
 
 # Hero
@@ -37,7 +37,7 @@ testimonials:
 
 
 # Footer
-copyright: © 2016 Data Science Africa Conference - All rights reserved
+copyright: © 2018 Data Science Africa Conference - All rights reserved
 gem: 'kramdown'
 
 # Build settings
