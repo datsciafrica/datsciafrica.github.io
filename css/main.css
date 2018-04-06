@@ -9422,3 +9422,17 @@ screen and (max-height: 300px) {
     right: 0;
     padding-top: 0
 }
+.v-align {
+    max-height: 100px;
+}
+ 
+.logo-box{
+    width: 300px;
+    display:inline-block;
+    float: center;
+}
+ 
+.logos img {
+    float:right;
+}
+
