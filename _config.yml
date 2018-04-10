@@ -1,5 +1,6 @@
 # Site settings
 title: Data Science Africa
+location: Since 2013
 description: "Conference website."
 banner: gazzelle.jpg
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -9,16 +10,27 @@ logo_url: img/logo.png
 
 email: info@datascienceafrica.org
 
-notice:
+next:
   url: /dsa2018/
   text: | # From here to "school:"
     <div class="" style="
                         font-weight: bold; 
                         font-size: 18px;
 
-                        ">Data Science Africa 2018</div>
-    <div>May 31<sup>st</sup>  - June 8<sup>th</sup> 2018</div>
+                        ">Kenya: Data Science Africa 2018</div>
+    <div>May 31<sup>st</sup>  - June 08<sup>th</sup> 2018</div>
     <div>Nyeri, Kenya</div>
+
+next2:
+  url: /dsa2018abuja/
+  text: |
+    <div class="" style="
+                        font-weight: bold; 
+                        font-size: 18px;
+ 
+                        ">Nigeria: Data Science Africa 2018</div>
+    <div>November 12<sup>th</sup>  - November 16<sup>th</sup> 2018</div>
+    <div>Abuja, Nigeria</div>
 
 # Hero
 hero:
