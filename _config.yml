@@ -17,7 +17,7 @@ next:
                         font-weight: bold; 
                         font-size: 18px;
 
-                        ">Ethiopia: Data Science Africa 2019</div>
+                        ">DSA Addis 2019</div>
     <div>June 3<sup>rd</sup>  - June 7<sup>th</sup> 2019</div>
     <div>Addis Ababa, Ethiopia</div>
 
@@ -28,7 +28,7 @@ next2:
                         font-weight: bold; 
                         font-size: 18px;
  
-                        ">Ghana: Data Science Africa 2019</div>
+                        ">DSA Accra 2019</div>
     <div>October 21<sup>st</sup>  - October 25<sup>th</sup> 2019</div>
     <div>Accra, Ghana</div>
 
@@ -49,7 +49,7 @@ testimonials:
 
 
 # Footer
-copyright: © 2018 Data Science Africa Conference - All rights reserved
+copyright: © 2019 Data Science Africa Conference - All rights reserved
 gem: 'kramdown'
 
 # Build settings
