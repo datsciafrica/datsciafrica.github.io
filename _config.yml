@@ -11,26 +11,26 @@ logo_url: img/logo.png
 email: info@datascienceafrica.org
 
 next:
-  url: /dsa2019addis/
+  url: /dsa2019accra/
   text: | # From here to "school:"
     <div class="" style="
-                        font-weight: bold; 
+                        font-weight: bold;
                         font-size: 18px;
 
-                        ">DSA Addis 2019</div>
-    <div>June 3<sup>rd</sup>  - June 7<sup>th</sup> 2019</div>
-    <div>Addis Ababa, Ethiopia</div>
-
-next2:
-  url: /dsa2019accra/
-  text: |
-    <div class="" style="
-                        font-weight: bold; 
-                        font-size: 18px;
- 
                         ">DSA Accra 2019</div>
     <div>October 21<sup>st</sup>  - October 25<sup>th</sup> 2019</div>
     <div>Accra, Ghana</div>
+
+next2:
+  url: /dsa2020kampala/
+  text: |
+    <div class="" style="
+                        font-weight: bold;
+                        font-size: 18px;
+
+                        ">DSA Kampala 2020</div>
+    <div>June 22<sup>st</sup>  - June 26<sup>th</sup> 2020</div>
+    <div>Kampala, Uganda</div>
 
 # Hero
 hero:
