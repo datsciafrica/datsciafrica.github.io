@@ -1,8 +1,10 @@
 # Site settings
 title: Data Science Africa
 location: Since 2013
+safe: false
 description: "Conference website."
-banner: gazzelle.jpg
+banner: dsa_banner.jpg
+banner_title: Data Science Africa
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.datascienceafrica.org" # the name of your domain
 logo_url: img/logo.png
@@ -13,43 +15,24 @@ email: info@datascienceafrica.org
 next:
   url: /dsa2019accra/
   text: | # From here to "school:"
-    <div class="" style="
-                        font-weight: bold;
-                        font-size: 18px;
-
-                        ">DSA Accra 2019</div>
+    Previous:
+    <div class="" style="font-weight: bold;font-size: 18px;">DSA Accra 2019</div>
     <div>October 21<sup>st</sup>  - October 25<sup>th</sup> 2019</div>
     <div>Accra, Ghana</div>
 
 next2:
   url: /dsa2020kampala/
   text: |
-    <div class="" style="
-                        font-weight: bold;
-                        font-size: 18px;
-
-                        ">DSA Kampala 2020</div>
-    <div>June 22<sup>st</sup>  - June 26<sup>th</sup> 2020</div>
+    Upcoming:
+    <div class="" style="font-weight: bold;font-size: 18px;">DSA Kampala 2020</div>
+    <div>June 22<sup>nd</sup>  - June 26<sup>th</sup> 2020</div>
     <div>Kampala, Uganda</div>
-
-# Hero
-hero:
-    # hero_img: hero.jpg
-    hero_img: gazzelle.jpg
-    hero_img2: chimp.jpg
-    hero_title: Data Science
-    hero_description: Conference website.
 
 # Contact form
 api_token: # Enter API token here
 
-# Testimonials
-testimonials:
-    testimonials_img: parallax.jpg
-
-
 # Footer
-copyright: © 2019 Data Science Africa Conference - All rights reserved
+copyright: © 2020 Data Science Africa Conference - All rights reserved
 gem: 'kramdown'
 
 # Build settings
@@ -65,6 +48,10 @@ exclude: [
     .gitignore
 ]
 
+twitter: https://twitter.com/dsa_org
+youtube: https://www.youtube.com/channel/UCkB0DCJZjJX6fdEZspidC9w/feed
+# TODO - make a proper DSA channel
+
 analytics:
   google:
     tracking_id: UA-80484960-1
@@ -73,5 +60,6 @@ video:
   height: 315
   width: 560
 
+
 # Theme Settings
-google_verification:
+# google_verification:

@@ -1,6 +1,6 @@
-<div id="events" class="events" style="background-color: #efefef">
+<div id="events" class="events" style="background-color: #efefef;padding-top:50px;padding-bottom:50px" >
   <div class="container-fluid" >
-    <h1 class="section-title" style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;">Events</h1>
+    <h1>Recent Events</h1>
     <ul>
     {% for repository in site.github.public_repositories reversed %}{% if repository.has_pages %}{% if repository.name contains 'dsa' %}{% unless repository.name contains 'stub' %}<li><a href='{{ repository.name | prepend: site.baseurl | prepend: '/' | prepend: site.url }}'>{{ repository.name | upcase }}</a> {{ repository.description }} </li>
 {% endunless %}{% endif %}{% endif %}{% endfor %}

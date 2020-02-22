@@ -5,8 +5,8 @@
 -------------------------------*/
 
 /* Font family */
-$fontFamilyPrimary: 'Open Sans', sans-serif;
-$fontFamilySecondary: 'Nunito', sans-serif;
+$fontFamilyPrimary: 'Work Sans', sans-serif;
+$fontFamilySecondary: 'Work Sans', sans-serif;
 
 /* Font weight */
 $fontWeightRegular: 400;
@@ -22,15 +22,16 @@ $black: #000;
 $grey: #333;
 $greyLight: #555;
 $gallery: #eee;
-$alto: #ddd;
-$mercury: #e9e9e9;
-$alabaster: #f7f7f7;
-$pelorous: #3dadb2;
+$alto: #00843E;//#ddd;
+$mercury: #00843E; //#e9e9e9;
+$alabaster: #00843E;// #f7f7f7;
+$pelorous: #e31c23; 
+// #3dadb2;
 
 /* Color usage */
 $colorPrimary: $pelorous;
 $colorHeading: $grey;
-$colorBase: $greyLight;
+$colorBase: $mercury;// $greyLight;
 $colorBg: $alabaster;
 $colorBorder: $alto;
 
