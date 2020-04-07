@@ -1,11 +1,24 @@
-- title: Lectures and field work material from past events
-  resource: https://github.com/datsciafrica/presentations
+- title: WHO information on COVID (including rolling updates)
+  resource: https://www.who.int/emergencies/diseases/novel-coronavirus-2019/events-as-they-happen
 
-- title: Video recordings from past events
-  resource: https://www.youtube.com/channel/UCkB0DCJZjJX6fdEZspidC9w/feed
+- title: CDC info and advisories
+  resource: https://www.cdc.gov/coronavirus/2019-ncov/index.html
 
-- title: Directory of groups and people working on Data Sciene and AI in Africa
-  resource: https://github.com/datsciafrica/presentations
+- title: COVID 19 Africa Line List Dashboard
+  resource: https://datastudio.google.com/u/0/reporting/9a6cd431-1b74-42f6-87ca-4d9b3af1001c/page/oHzJB
+
+- title: Coronavirus COVID-19 (2019-nCoV) Data Repository for Africa
+  resource: https://github.com/dsfsi/covid19africa/
+
+- title: COVID 19 Tracking in Uganda
+  resource: https://covid19.gou.go.ug
+
+- title: COVID 19 Tracking worldwide (live)
+  resource: https://www.worldometers.info/coronavirus/
+
+# - title: COVID 19 Model from UCL
+#   resource: https://github.com/datsciafrica/presentations
+
 
 
 # - title: Free Datasets For All

@@ -1,32 +1,16 @@
 # Site settings
-title: Data Science Africa
-location: Since 2013
+title: COVID 19
+location: DSA Response
 safe: false
-description: "Conference website."
+description: "Information website."
 banner: dsa_banner.jpg
-banner_title: Data Science Africa
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.datascienceafrica.org" # the name of your domain
+banner_title: Data Science Africa and COVID 19
+baseurl: "/covid19"
+url: "http://www.datascienceafrica.org"
 logo_url: img/logo.png
 # logo_url: svg/min/logo.svg
 
 email: info@datascienceafrica.org
-
-next:
-  url: /dsa2019accra/
-  text: | # From here to "school:"
-    Previous:
-    <div class="" style="font-weight: bold;font-size: 18px;">DSA Accra 2019</div>
-    <div>October 21<sup>st</sup>  - October 25<sup>th</sup> 2019</div>
-    <div>Accra, Ghana</div>
-
-next2:
-  url: /dsa2020kampala/
-  text: |
-    Upcoming:
-    <div class="" style="font-weight: bold;font-size: 18px;">DSA Kampala 2020</div>
-    <div>June 22<sup>nd</sup>  - June 26<sup>th</sup> 2020</div>
-    <div>Kampala, Uganda</div>
 
 # Contact form
 api_token: # Enter API token here

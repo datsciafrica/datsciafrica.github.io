@@ -1,13 +1,19 @@
-<div id="events" class="events" style="background-color: #efefef;padding-top:50px;padding-bottom:50px" >
+<div id="events" class="events" style="padding-top:50px;padding-bottom:50px" >
   <div class="container-fluid" >
-    <h1>Recent Events</h1>
-    <ul>
-    {% for repository in site.github.public_repositories reversed %}{% if repository.has_pages %}{% if repository.name contains 'dsa' %}{% unless repository.name contains 'stub' %}<li><a href='{{ repository.name | prepend: site.baseurl | prepend: '/' | prepend: site.url }}'>{{ repository.name | upcase }}</a> {{ repository.description }} </li>
-{% endunless %}{% endif %}{% endif %}{% endfor %}
+    <h1>DSA COVID Events</h1>
+    <dl>
+    	<dt>1st DSA Covid-19 Webinar on April 8th, 1600 GMT</dt>
+    	<dd>Discussion on how we are responding to the pandemic, info on how and where to help. 
+    		Key agenda include:
+    			<ul>
+    				<li>Highlight the efforts by data scientists to combat this pandemic.</li>
+					<li>Determine avenues for collaboration.</li>
+					<li>Link data scientists with domain experts.</li>
+    			</ul>
+    		Program TBD
+    	</dd>
 
-    {% for repository in site.github.public_repositories reversed %}{% if repository.has_pages %}{% if repository.name contains 'gpss' %}{% unless repository.name contains 'stub' %}<li><a href='{{ repository.name | prepend: site.baseurl | prepend: '/' | prepend: site.url }}'>{{ repository.name | upcase }}</a> {{ repository.description }} </li>
-{% endunless %}{% endif %}{% endif %}{% endfor %}
-    </ul>
+    </dl>
   </div>
 </div>
     
