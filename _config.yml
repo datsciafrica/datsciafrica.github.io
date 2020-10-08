@@ -32,7 +32,7 @@ next2:
 api_token: # Enter API token here
 
 # Footer
-copyright: © 2020 Data Science Africa Conference - All rights reserved
+copyright: © 2020 Data Science Africa - All rights reserved
 gem: 'kramdown'
 
 # Build settings
