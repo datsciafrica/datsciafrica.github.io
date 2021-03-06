@@ -16,17 +16,14 @@ next:
   url: /dsa2019accra/
   text: | # From here to "school:"
     Previous:
-    <div class="" style="font-weight: bold;font-size: 18px;">DSA Accra 2019</div>
-    <div>October 21<sup>st</sup>  - October 25<sup>th</sup> 2019</div>
-    <div>Accra, Ghana</div>
+    <div class="" style="font-weight: bold;font-size: 18px;">DSA Kampala 2020</div>
+    <div>July 24<sup>th</sup>  - July 31<sup>st</sup> 2020</div>
+    <div>Kampala, Uganda</div>
 
 next2:
   url: /dsa2020kampala/
   text: |
-    Upcoming:
-    <div class="" style="font-weight: bold;font-size: 18px;">DSA Kampala 2020</div>
-    <div>July 24<sup>th</sup>  - July 31<sup>st</sup> 2020</div>
-    <div>Kampala, Uganda</div>
+    Upcoming: DSA 20201 Event TBD
 
 # Contact form
 api_token: # Enter API token here
