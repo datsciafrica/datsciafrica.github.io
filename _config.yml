@@ -13,7 +13,7 @@ logo_url: img/logo.png
 email: info@datascienceafrica.org
 
 next:
-  url: /dsa2019accra/
+  url: /dsa2020kampala/
   text: | # From here to "school:"
     Previous:
     <div class="" style="font-weight: bold;font-size: 18px;">DSA Kampala 2020</div>
@@ -21,7 +21,7 @@ next:
     <div>Kampala, Uganda</div>
 
 next2:
-  url: /dsa2020kampala/
+  url: /#/
   text: |
     Upcoming: DSA 20201 Event TBD
 
