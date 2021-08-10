@@ -23,7 +23,9 @@ next:
 next2:
   url: /#/
   text: |
-    Upcoming: DSA 20201 Event TBD
+    <div class="" style="font-weight: bold;font-size: 18px;">DSA South Africa 2021</div>
+    <div>October 4<sup>th</sup>  - October 8<sup>th</sup> 2021</div>
+    <div>Kimberley, South Africa</div>
 
 # Contact form
 api_token: # Enter API token here
