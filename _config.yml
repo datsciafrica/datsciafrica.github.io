@@ -24,7 +24,7 @@ next2:
   url: /#/
   text: |
     Upcoming:
-    <div class="" style="font-weight: bold;font-size: 18px;">DSA Cape Town 2021</div>
+    <div class="" style="font-weight: bold;font-size: 18px;">DSA Kimberley 2021</div>
     <div>October 4<sup>th</sup>  - October 8<sup>th</sup> 2021</div>
     <div>Kimberley, Northern Cape, South Africa</div>
 
@@ -32,7 +32,7 @@ next2:
 api_token: # Enter API token here
 
 # Footer
-copyright: © 2020 Data Science Africa - All rights reserved
+copyright: © 2021 Data Science Africa - All rights reserved
 gem: 'kramdown'
 
 # Build settings
