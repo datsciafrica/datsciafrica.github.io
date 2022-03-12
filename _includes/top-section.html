@@ -1,0 +1,23 @@
+<!-- Begin Top Section -->
+
+
+    {% include navigation.html %}
+<!--
+	<div class="content-wrapper">
+	    <div class="jumbotron text-left" style=" {% if page.image %}background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url('{{ site.baseurl }}/assets/img/{{ page.image }}');{% elsif page.color %}background: {{ page.color }}{% endif %} ">
+	        <div class="animated hiding" data-animation="fadeInLeft" data-delay="500">
+	            <h1>{{ page.title }}</h1>
+	        </div>
+	    </div>
+    </div>
+-->
+
+<div class="jumbotron text-white jumbotron-image shadow" style="{% if page.image %}background-image: linear-gradient(rgba(0, 0, 0, 0.827),rgba(0, 0, 0, 0.8)) , url('{{ site.baseurl }}/assets/img/{{ page.image }}');{% elsif page.color %}background: {{ page.color }}{% endif %}">
+      <h2 class="mb-4">
+        {{ page.title }}
+      </h2>
+      <p class="mb-4">
+        {{ page.subtitle }}
+      </p>
+      
+    </div>

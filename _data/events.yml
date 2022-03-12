@@ -1,0 +1,76 @@
+
+-
+ title: "DSA 2021 Kimberley"
+ startdate: "2021-10-04"
+ venue: "Sol Plaatje University, Kimberley, South Africa"
+ image: "/assets/img/South_Africa.png"
+ theme: "Women and Data in Africa"
+ site: "https://www.datascienceafrica.org/dsa2021kimberley/"
+ position: "9<sup>th</sup>"
+
+-
+ title: "DSA 2020 Kampala"
+ startdate: "2020-07-24"
+ venue: "Makerere University, Kampala, Uganda"
+ image: "/assets/img/Uganda.png"
+ site: "http://www.datascienceafrica.org/dsa2020kampala/"
+ position: "8<sup>th</sup>"
+ 
+-
+ title: "DSA 2019 Accra"
+ startdate: "2019-10-21"
+ venue: "Ashesi University, Accra, Ghana"
+ image: "/assets/img/Ghana.png"
+ site: "http://www.datascienceafrica.org/dsa2019accra/"
+ position: "7<sup>th</sup>"
+ 
+-
+ title: "DSA 2019 Addis"
+ startdate: "2019-06-03"
+ venue: "Addis Ababa University, Addis Ababa, Ethiopia"
+ image: "/assets/img/Ethiopia.png"
+ site: "http://www.datascienceafrica.org/dsa2019addis/"
+ position: "6<sup>th</sup>"
+ 
+ 
+-
+ title: "DSA 2018 Abuja"
+ startdate: "2018-11-12"
+ venue: "African University of Science and Technology, Abuja, Nigeria"
+ image: "/assets/img/Nigeria.png"
+ site: "http://www.datascienceafrica.org/dsa2018abuja/"
+ position: "5<sup>th</sup>"
+
+-
+ title: "DSA 2018 Nyeri"
+ startdate: "2018-05-31"
+ venue: "Dedan Kimathi University of Technology, Nyeri, Kenya"
+ image: "/assets/img/Kenya.png"
+ site: "http://www.datascienceafrica.org/dsa2018/"
+ position: "4<sup>th</sup>"
+ 
+-
+ title: "DSA 2017 Arusha"
+ startdate: "2017-07-17"
+ venue: "Nelson Mandela African Institute of Science and Technology, Tanzania"
+ image: "/assets/img/Tanzania.png"
+ site: "http://www.datascienceafrica.org/dsa2017/"
+ position: "3<sup>rd</sup>"
+ 
+-
+ title: "DSA 2016 Kampala"
+ startdate: "2016-06-27"
+ venue: "Makerere University, Kampala, Uganda"
+ image: "/assets/img/Uganda.png"
+ site: "http://www.datascienceafrica.org/dsa2016/"
+ position: "2<sup>nd</sup>"
+
+-
+ title: "DSA 2015 Nyeri"
+ startdate: "2015-06-15"
+ venue: "Dedan Kimathi University of Technology, Nyeri, Kenya"
+ image: "/assets/img/Kenya.png"
+ site: "http://www.datascienceafrica.org/dsa2015/"
+ position: "1<sup>st</sup>"
+
+ 

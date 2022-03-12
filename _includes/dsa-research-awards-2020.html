@@ -1,0 +1,43 @@
+<section class="page-body">
+    <div class="container">
+        <div class="row">
+        {% assign awards = site.data.DSAresearchAward2020 %}
+         {% for award in awards %}   
+            <div class="col-lg-4 mb-1 mt-1 d-flex align-items-stretch">
+            <div class="card" >
+  <img src="{{ site.baseurl }}/assets/img/{{ page.image }}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">{{ award.pi }}</h5>
+    <p class="card-text">{{ award.title }}</p>
+  </div>
+<!--
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">An item</li>
+    <li class="list-group-item">A second item</li>
+    <li class="list-group-item">A third item</li>
+  </ul>
+-->
+  <div class="card-body">
+      {{award.institution}} 
+  </div>
+  <div class="card-footer">
+    <small class="text-muted"> {{ award.country}}</small>
+  </div>
+</div>
+            </div>  
+{% endfor %}
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        </div>
+        </div>
+
+</section>
+<br>		

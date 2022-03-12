@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url('#{$imo-font-path}/icomoon.eot?v=#{$imo-version}');
+  src: url('#{$imo-font-path}/icomoon.eot?#iefix&v=#{$imo-version}') format('embedded-opentype'),
+//    url('#{$imo-font-path}/icomoon.woff2?v=#{$imo-version}') format('woff2'),
+    url('#{$imo-font-path}/icomoon.woff?v=#{$imo-version}') format('woff'),
+    url('#{$imo-font-path}/icomoon.ttf?v=#{$imo-version}') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.#{$imo-css-prefix} {
+    display: inline-block;
+    font: normal normal normal $imo-font-size-base/1 "icomoon";
+    font-size: inherit;
+    speak: none;
+    vertical-align: $imo-v-align;
+    text-rendering: auto;
+
+    /* Enable Ligatures ================ */
+    -webkit-font-feature-settings: "liga";
+    -moz-font-feature-settings: "liga=1";
+    -moz-font-feature-settings: "liga";
+    -ms-font-feature-settings: "liga" 1;
+    -o-font-feature-settings: "liga";
+    font-feature-settings: "liga";
+    
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
+}
