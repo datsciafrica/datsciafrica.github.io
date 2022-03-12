@@ -1,57 +1,43 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you: 
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-safe: false
 title: Data Science Africa
-email: info@datascienceafrica.org
+location: Since 2013
+safe: false
 description: "Conference website."
+banner: dsa_banner.jpg
+banner_title: Data Science Africa
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.datascienceafrica.org" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: dsa_org
-github_username:  datsciafrica
+url: "http://www.datascienceafrica.org" # the name of your domain
+logo_url: img/logo.png
+# logo_url: svg/min/logo.svg
 
-# Build settings
-theme: minima
-plugins:
-  - jekyll-feed
-  
+email: info@datascienceafrica.org
+
+next:
+  url: /dsa2020kampala/
+  text: | # From here to "school:"
+    Previous:
+    <div class="" style="font-weight: bold;font-size: 18px;">DSA Kampala 2020</div>
+    <div>July 24<sup>th</sup>  - July 31<sup>st</sup> 2020</div>
+    <div>Kampala, Uganda</div>
+
+next2:
+  url: /dsa2021kimberley/
+  text: |
+    Upcoming:
+    <div class="" style="font-weight: bold;font-size: 18px;">DSA Kimberley 2021 (Virtual)</div>
+    <div>October 4<sup>th</sup>  - October 8<sup>th</sup> 2021</div>
+    <div>Kimberley, Northern Cape, South Africa</div>
+
+# Contact form
+api_token: # Enter API token here
+
 # Footer
 copyright: © 2021 Data Science Africa - All rights reserved
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+gem: 'kramdown'
+
+# Build settings
+markdown: kramdown
+
 exclude: [
     package.json,
     Gruntfile.js,
@@ -62,7 +48,18 @@ exclude: [
     .gitignore
 ]
 
+twitter: https://twitter.com/dsa_org
+youtube: https://www.youtube.com/channel/UCkB0DCJZjJX6fdEZspidC9w/feed
+# TODO - make a proper DSA channel
 
 analytics:
   google:
     tracking_id: UA-80484960-1
+
+video:
+  height: 315
+  width: 560
+
+
+# Theme Settings
+# google_verification:
