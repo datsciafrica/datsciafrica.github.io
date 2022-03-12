@@ -21,7 +21,7 @@
 title: Data Science Africa
 email: info@datascienceafrica.org
 description: "Conference website."
-baseurl: "/testdsa" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.datascienceafrica.org" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: dsa_org
 github_username:  datsciafrica
@@ -52,8 +52,15 @@ copyright: © 2021 Data Science Africa - All rights reserved
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-exclude:
-  - _site/
+exclude: [
+    package.json,
+    Gruntfile.js,
+    node_modules,
+    .sass-cache,
+    Gemfile,
+    Gemfile.lock,
+    .gitignore
+]
 
 
 # Navigation
