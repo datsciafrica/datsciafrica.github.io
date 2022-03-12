@@ -1,31 +1,56 @@
-{% include head.html %}
-<body data-spy="scroll" data-offset="80" data-target=".scrollspy" id="top">
-    {% include svg-defs.svg %}
-    <!--[if lt IE 10]>
-        <p class="oldie">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> to better experience this site.</p>
-    <![endif]-->
-
-    {% include header.html %}
- 
-        {{ content }}
-           
-    {% include footer.html %}
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="index, follow">
+  <title>DSA | Home</title>
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/jquery.owlcarousel/1.31/owl.carousel.css'>
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
+  <link rel="stylesheet" href="{{ '/assets/css/owl.carousel.min.css' | relative_url }}" />
     
-    {% if site.analytics %}
-        {% include analytics.html %}
-    {% endif %}
-
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
-    <script src="{{ site.baseurl }}/js/all.min.js"></script>
-    <script type="text/javascript">
-        $( window ).scroll(function() {
-             if($(window).scrollTop() > 150){
-               $( ".navbar-brand img" ).height(55);
-             }else{
-                 $( ".navbar-brand img").height(115);
-             }
-        });
-    </script>
+  
+    
+    
+</head>
+<body>
+  
+    {{ content }}
+ 
+<!-- <script src="{{ site.baseurl }}/assets/js/jquery-3.3.1.min.js"></script>-->
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+    <script src="{{ site.baseurl }}/assets/js/popper.min.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/bootstrap.min.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/jquery.sticky.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/main.js"></script>
+<!--    owl.carousel-->
+<!--    <script src="{{ site.baseurl }}/assets/js/owl.carousel.js"></script>-->
+    
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js'></script>
+<script src='https://cdn.jsdelivr.net/jquery.owlcarousel/1.31/owl.carousel.js'></script>
+    
+    <script src="{{ site.baseurl }}/assets/js/owl.animate.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/owl.autoheight.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/owl.autoplay.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/owl.autorefresh.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/owl.hash.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/owl.lazyload.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/owl.navigation.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/owl.support.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/owl.support.modernizr.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/owl.video.js"></script>
+    
+    
+<!--    <script src="{{ site.baseurl }}/assets/js/news.js"></script>-->
+    
+    <script src="{{ site.baseurl }}/assets/js/script.js"></script>
+    
+    
+    
+    
+    
+    
 </body>
 </html>

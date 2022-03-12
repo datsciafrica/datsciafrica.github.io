@@ -1,0 +1,85 @@
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+body, html
+  height: 100%
+  font:
+    family: 'Open Sans', sans-serif
+    weight: 300
+
+.opacFull
+  opacity: 1 !important
+
+.slider-container
+  width: 100%
+  height: 100%
+  overflow: hidden
+
+.site-slider
+  position: relative
+  li
+    line-height: 0
+    list-style: none
+
+.slider-img
+  width: 100%
+  height: 100%
+
+.slider-text
+  position: absolute
+  top: 50%
+  left: 100px
+  line-height: normal
+  color: #fff
+  transform: translateY(-50%)
+  h3
+    font:
+      size: 40px
+      weight: 400
+    margin-bottom: 10px
+    opacity: 0
+
+  p
+    font:
+      size: 18px
+    opacity: 0
+
+.owl-dots
+  position: absolute
+  top: 50%
+  right: 20px
+  transform: translateY(-50%)
+  .owl-dot
+    width: 10px
+    height: 10px
+    background: #fff
+    display: block
+    margin: 10px 0
+    border-radius: 50%
+    &.active
+      background: #e05038
+      transform: scale(1.5)
+
+.animate-in-fast
+  animation: in-fast 1000ms ease-in-out forwards
+
+
+@keyframes in-fast
+  0%
+    opacity: 0
+    transform: translateX(-3em)
+  100%
+    opacity: 1
+    transform: translateX(0)
+
+.animate-in-slow
+  animation: in-slow 1000ms linear forwards
+
+@keyframes in-slow
+  0%
+    opacity: 0
+    transform: translateX(3em)
+  100%
+    opacity: 1
+    transform: translateX(0)

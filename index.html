@@ -1,93 +1,21 @@
 ---
-layout: site_index
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: default
 ---
-<div class="row">
-  <!--- begin fellowship panel-->
-  <div class="panel panel-warning">
-    <div class="panel-heading">DSA Visiting Fellowship</div>
-    <div class="panel-body">
-     DSA is excited to announce a visiting fellowship program for members of the DSA community to further their professional and personal development through academic and professional research visits. Learn more about the fellowship <a href="http://www.datascienceafrica.org/dsa-visiting-fellowship/">http://www.datascienceafrica.org/dsa-visiting-fellowship</a>.
-    </div>
-  </div>
-  
-  <!--- begin audit panel-->
-  <div class="panel panel-danger">
-    <div class="panel-heading">DSA External Audit</div>
-    <div class="panel-body">
-     DSA is seeking to procure Audit Services aimed at evaluating the effectiveness of financial, management and governance, operational and administrative systems and structures of the NGO. For more information and how to apply, please see the <a href="assets/TORs for DSA Audit Services.pdf">terms of reference.</a>
-    </div>
-  </div>
 
-  <!--- begin monthly research seminar-->
-  <div class="panel panel-info">
-    <div class="panel-heading">Monthly DSA Research Seminars</div>
-    <div class="panel-body">
-      DSA has started hosting monthly research seminars that happen every 2nd Thursday of the month.  We call upon you to participate and encourage you to submit your work for presentation in the upcoming seminars. More here <a href="http://www.datascienceafrica.org/monthly-research-seminars">www.datascienceafrica.org/monthly-research-seminars/</a>.
-    </div>
-  </div>
- <!--- end monthly research seminar-->
 
-  <div class="panel panel-success">
-    <div class="panel-heading">DSA Research Award</div>
-    <div class="panel-body">
-      DSA announced a call to support research addressing local challenges in Africa in August 2020. The aim was to support up to ten pilot and early stage research projects that leverage data science, artificial intelligence (AI) and machine learning (ML) methods to develop tools with broad societal benefits. We are happy to announce the projects selected here <a href="http://www.datascienceafrica.org/dsa-research-award/">www.datascienceafrica.org/dsa-research-award/</a>.
-    </div>
-  </div>
 
- <!---
-  <div class="panel panel-danger">
-    <div class="panel-heading">COVID-19 Update</div>
-    <div class="panel-body">
-      DSA is closely monitoring what is going on around the world and especially Africa with the COVID-19 pandemic.
-      We are continuously looking for ways to help, and have setup a single location to track our efforts in this regard.
-      The information is collected at <a href="http://www.datascienceafrica.org/covid19/">http://www.datascienceafrica.org/covid19/</a>. We will keep monitoring the impact on our usual summer schools.
-    </div>
-  </div>-->
-  
-  <p>The last few years have witnessed an explosion in the quantity and variety of data available in Africa, produced either as a by-product of digital services, from sensors or measuring devices, satellites and from many other sources. A number of practical fields have been transformed by the ability to collect large volumes of data: for example, bioinformatics with the development of high throughput sequencing technology capable of measuring gene expression in cells, or agriculture with the widespread availability of high quality remote sensing data. For other data sources – such as mobile phone usage records from telecoms operators, which can be used to measure population movement and economic activity – we are just beginning to understand the practical possibilities.
-  </p>
+{% include navigation.html %}
 
-  <p>The first DSA event was held in 2015 at Dedan Kimathi University of Technology in Nyeri, Kenya following discussions to hold an event similar to the Gaussian Process Summer Schools in Kenya. A successful GP summer school was held in 2013 at Makerere in Uganda but for the Kenyan event we felt that a data science event would be more appropriate. We decided on the following format: three days of summer school where we would introduce students to machine learning (ML) and data science methods and two days of workshop where research applying data science methods to important problems in Africa would be discussed. From the beginning the focus on educating students and problem solving was key.
-  </p>
+{% include sliderwithcaption.html %}
 
-  We at Data Science Africa aim to create a hub in the network of data science researchers across Africa, by:
-  <ol>
-    <li>Providing an index of researchers and practitioners in the field of Data Science in Africa</li>
-    <li>Developing a set of lecture and notes resources</li>
-    <li>Links and sources of information and potential data sources</li>
-    <li>In the future a discussion forum to discuss Data Science questions</li>
-    <li>An online presence for data science conferences and workshops</li>
-  </ol>
+{% include news.html %}
 
-  	<h3>Brief look into the future</h3>
-    <p>
-    Since the 2015 event in Kenya, we have had DSA 2016 in Uganda and DSA 2017 in Tanzania with the need for wide regional participation emerging as a key goal for DSA. We also need to consolidate communities and expand in a sustainable way as we select future venues. We believe that meeting the particular challenges of real world data science requires a robust and cooperative community. One idea is to have regional meetings in different countries and periodic larger meetings bring together participants from all over Africa. In addition we need to focus on end-to-end solutions where data scientists are trained on the entire data pipeline from collection through to decision making.
-    </p>
 
-    <h3>Successes</h3>
-    <p>
-    DSA has achieved a number of things over its first three editions. Perhaps the most important is that over 200 participants have been trained on cutting edge machine learning techniques and data science applications. Our participants have diverse backgrounds including undergraduate and graduate students, researchers and industry players all interested in learning how to apply cutting edge methods to the problems they care about. Starting with foundational material such as an introduction to ML, clustering, dimensionality reduction and other important techniques. We have also had lectures on practical applications such as spatial data analysis, social media data analysis and application of ML in industry. In 2017 we also introduced participants to deep learning which has revolutionised a number of areas in ML. Another innovation in 2017 was the introduction of practical sessions that demonstrate the collection of data using the internet of things. This is one step in demonstrating end-to-end data science.
 
-    Another major success has been the workshop’s focus on problem solving. A vast majority of the work presented at the three workshops so far have demonstrated the work being done in Africa that applies machine learning and data science to find solutions. The applications have been varied from agriculture, health, conservation and disaster management.
 
-    Also, even though we are focussed on Africa, our events have been international in character with participants from all over the world. Feedback from our participants suggests that the workshop has found a good balance between formal technical presentations and creating an environment where real exchanges between peers can take place.
-    </p>
+{% include footer.html %}
 
-    <h3>Core tenets</h3>
-    <p>
-    Having laid out our history, future outlook, successes and challenges. We can distill our core tenets. These will drive our events going forward and ensure we build on our past success.
-    </p>
-    <ul>
-        <li>By Africa: Our focus is on strengthening the African data science community, but we also welcome engaged expertise from the entire international community.</li>
-        <li>Student Focus: DSA is aimed at educating participants on machine learning and data science methods.</li>
-        <li>About solutions: DSA is focussed on solutions to problems relevant to the African context, in particular emphasising affordability, sustainability and deployability.</li>
-        <li>Sustainable and inclusive. Sustainable growth implies that our growth should not neglect the existing base of students, practitioners and researchers that give us critical mass.</li>
-        <li>Agility: Lightweight decision making.</li>
-        <li>Striking when the enthusiasm is alive.</li>
-    </ul>
 
-    <h3>Legal</h3>
-    DSA is a registered non-profit organization since 2019, and is based in Kenya. Its management is comprised of three management
-committee members, three board advisors, and ten board members.
-
-</div>
