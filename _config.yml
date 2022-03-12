@@ -52,19 +52,12 @@ copyright: © 2021 Data Science Africa - All rights reserved
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-exclude:
-  - _site/
-
-
-# Navigation
-navigationLinks:
- - {permalink: "/", text: "Home"}
- - {permalink: "/aboutus/", text: "About Us"}
- - {permalink: "/programmes/", text: "Programmes"}
- - {permalink: "/resources/", text: "Resources"}
- - {permalink: "/calendar/", text: "Calendar"}
- - {permalink: "/contactus/", text: "Contact Us"}
- #- {permalink: "/logistics/", text: "Logistics"}
- #- {permalink: "/hackathon/", text: "Virtual Field Work"}
- #- {link: "http://www.datascienceafrica.org#events", text: "Past Meetings"}
- #- {link: "http://www.datascienceafrica.org", text: "DSA Org"}
+exclude: [
+    package.json,
+    Gruntfile.js,
+    node_modules,
+    .sass-cache,
+    Gemfile,
+    Gemfile.lock,
+    .gitignore
+]
