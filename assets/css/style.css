@@ -1258,4 +1258,32 @@ strong{
 
 /*End Cards for DSA Visiting Fellowship*/
 
-
+.Message-sticky {
+  background-color: #00B2F6;
+  color: #fff;
+  display: block;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  margin-top: -1.5rem;
+  box-shadow: inset 0 3px 5px 3px rgba(0, 0, 0, 0.15);
+  z-index: 99999;
+}
+.Message-sticky a {
+  font-size: 0.9em;
+  margin: 0.5em 0.75em;
+  padding: 0 0.5em;
+  display: inline-block;
+}
+.Message-sticky .fa {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+  margin: 0;
+  padding: 0.75em;
+  cursor: pointer;
+  z-index: 99;
+}
