@@ -350,6 +350,11 @@ background: linear-gradient(354deg, rgba(13,133,66,1) 7%, rgba(0,0,0,0.943014705
   vertical-align: bottom;
   padding-bottom: 14vh;
 }
+
+#owl-main .caption.vertical-lower-bottom {
+  vertical-align: bottom;
+  padding-bottom: 2vh;
+}
 #owl-main .caption.text-center {
   padding-left: 10%;
   padding-right: 10%;
@@ -1287,3 +1292,4 @@ strong{
   cursor: pointer;
   z-index: 99;
 }
+

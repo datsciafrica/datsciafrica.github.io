@@ -25,22 +25,33 @@
     
     <div id="dr_hiringtab">
   <div id="dr_hiringtab_tab">
-    <div><a href="#">DSA 2022 Arusha</a></div>
+    <div><a href="#">New Updates</a></div>
   </div>
   <div id="dr_hiringtab_content">
+<!--
     <div id="dr_hiringtab_head">
-      <h3>DSA 2022 Arusha</h3>
-      <p>We are on a mission to change the nation and are looking for other like-minded,
-        high-quality people to join us.</p>
+      <h3>New Updates</h3>
+      
     </div>
-    <h4>Upcoming Event</h4>
-    <ul>
-      <li><a href="#">DSA 2022 Arusha</a></li>
-    </ul>
+-->
+    <h4>Updates</h4>
+      <ul style="width: 250px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+      {% assign updates = site.data.newupdates %}
+         {% for update in updates %}   
+           
+            <li><a href="{{site.baseurl}}{{update.url}}" alt="bbb">{{update.title}}</a></li>
+          
+{% endfor %}
+      </ul> 
+      
+      
+    
+<!--
       <h4>Previous Event</h4>
     <ul>
       <li><a href="#">DSA 2021 Kimberly</a></li>
     </ul>
+-->
   </div>
 </div>
 <div id="dr_hiringtab_overlay" style="display:none"></div>
