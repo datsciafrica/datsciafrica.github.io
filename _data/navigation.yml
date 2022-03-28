@@ -39,4 +39,5 @@
 - title: Contact Us
   url: \#
 - title: Blog
-  url: \#
+  url: "http://www.datascienceafrica.org/dsablog/"
+  link: true

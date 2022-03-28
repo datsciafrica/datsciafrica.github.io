@@ -68,6 +68,7 @@
                                             </ul>
                                         </li>
                             {% else %}
+                                
                                 <li>
                                     <a href="{{ site.url }}{{ site.baseurl }}{{ sublink.url }}" class="nav-link">{{ sublink.title }}</a>
                                 </li>
@@ -76,9 +77,15 @@
                     </ul>
                 </li>
             {% else %}    
+               {% if link.link == "true" %}  
                 <li>
                     <a href="{{ site.url }}{{ site.baseurl }}{{ link.url }}" class="nav-link {{ class }}">{{ link.title }}</a>
                 </li>
+               {% else %}
+                    <li>
+                    <a href="{{ link.url }}" class="nav-link {{ class }}">{{ link.title }}</a>
+                </li>
+               {% endif %}
             {% endif %}
         {% endfor %} 
                     
