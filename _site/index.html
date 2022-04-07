@@ -42,11 +42,11 @@
       
             
            
-            <li><a href="/dsa-research-awards-2022/" alt="bbb">African AI Research Award 2022</a></li>
+            <li><a href="/dsa-research-awards-2022/" alt="">African AI Research Award 2022</a></li>
           
    
            
-            <li><a href="#" alt="bbb">DSA 2022 Arusha</a></li>
+            <li><a href="#" alt="">DSA 2022 Arusha</a></li>
           
 
       </ul> 
@@ -316,11 +316,38 @@
 
 
 <!-- partial:index.partial.html -->
-<!-- ============================================================= SECTION – HERO ============================================================= -->
-			
+<!-- ============================================================= SECTION – HERO ============================================================= 
+mx-auto d-none d-md-block-->
+<style>
+.inner-header {
+/*  height: 300px;*/
+  background-position: top;
+  background-size: cover;
+}
+
+
+
+.responsive-bg {
+      background-image: var(--mobile-bg);
+  }
+    
+  @media (min-width: 600px) {
+      .responsive-bg {
+          background-image: var(--tablet-bg);
+      }
+      
+  @media (min-width: 1024px) {
+      .responsive-bg {
+          background-image: var(--desktop-bg);
+      }
+      
+  }
+</style>		
 			<section id="mainSlider" class="mb-3">
 				<div id="owl-main" class="owl-carousel height-md owl-inner-nav owl-ui-lg">
-					<div class="item" style="background-image: url(/assets/img/africa-ai-research-award-2022.jpeg);">
+                    
+                    
+                    <div class="item inner-header responsive-bg" style="--mobile-bg: url(/assets/img/slideshow/africa-ai-research-award-2022-mobile.jpg); --tablet-bg: url(/assets/img/slideshow/africa-ai-research-award-2022-tablet.jpg); --desktop-bg: url(/assets/img/slideshow/africa-ai-research-award-2022-desktop.jpg);">
 						<div class="container">
                             <div class="caption vertical-lower-bottom text-center">
                                 
@@ -330,12 +357,15 @@
                             </div><!-- /.caption -->
 						</div><!-- /.container -->
 					</div><!-- /.item -->
-					<div class="item" style="background-image: url(/assets/img/dsa-mapS-4.jpg);">
+					
+                    
+                    
+                    <div class="item inner-header responsive-bg" style="--mobile-bg: url(/assets/img/slideshow/previous-dsa-events-mobile.jpg); --tablet-bg: url(/assets/img/slideshow/previous-dsa-events-tablet.jpg); --desktop-bg: url(/assets/img/slideshow/previous-dsa-events-desktop.jpg);">
 						<div class="container">
 							<div class="caption vertical-center text-left">
 								
 								<h1 class="fadeInDown-1 light-color">Previous DSA Events</h1>
-								<p class="fadeInDown-2 medium-color">Since 2015, DSA has held 9 events in 7 different African Countries including Ghana, Uganda, Nigeria, South Africa, Kenya, Tanzania, and Ethiopia. <br>DSA Events consist of 3 days summer school (for training) and 2 days of workshop (for showcasing use cases) 
+								<p class="fadeInDown-2 medium-color d-none d-lg-block d-xl-block">Since 2015, DSA has held 9 events in 7 different African Countries including Ghana, Uganda, Nigeria, South Africa, Kenya, Tanzania, and Ethiopia. <br>DSA Events consist of 3 days summer school (for training) and 2 days of workshop (for showcasing use cases) 
 </p>
 								<div class="fadeInDown-3">
 <!--									<a href="#" class="btn btn-large">Get started now</a>-->
@@ -344,27 +374,14 @@
 							</div><!-- /.caption -->
 						</div><!-- /.container -->
 					</div><!-- /.item -->
+                    
 					
-					<div class="item" style="background-image: url(/assets/img/dsa-map-banner-2.jpg);">
-						<div class="container">
-							<div class="caption vertical-center text-left">
-								
-								<h1 class="fadeInLeft-1 light-color">Previous DSA Events</h1>
-								<p class="fadeInLeft-2 light-color">Since 2015, DSA has held 9 events in 7 different African Countries including Ghana, Uganda, Nigeria, South Africa, Kenya, Tanzania, and Ethiopia. <br>DSA Events consist of 3 days summer school (for training) and 2 days of workshop (for showcasing use cases) </p>
-								<div class="fadeInLeft-3">
-<!--									<a href="#" class="btn btn-large">Get started now</a>-->
-								</div><!-- /.fadeIn -->
-								
-							</div><!-- /.caption -->
-						</div><!-- /.container -->
-					</div><!-- /.item -->
-					
-					<div class="item" style="background-image: url(/assets/img/dsa-map-banner-grants.jpg);">
+                    <div class="item inner-header responsive-bg" style="--mobile-bg: url(/assets/img/slideshow/dsa-research-grants-mobile.jpg); --tablet-bg: url(/assets/img/slideshow/dsa-research-grants-tablet.jpg); --desktop-bg: url(/assets/img/slideshow/dsa-research-grants-desktop.jpg);">
 						<div class="container">
 							<div class="caption vertical-center text-left">
 								
 								<h1 class="fadeInRight-1 dark-bg light-color"><span>DSA Research<br>Grants</span></h1>
-								<p class="fadeInRight-2 dark-color">DSA grants to 10 projects based at African Universities covering 8 (eight) African countries including Benin, Egypt, Ethiopia, Kenya, Nigeria, South Africa, Tanzania, and Uganda. Covering areas oc COVID-19, Agriculture, Climatic change, Urban planning and Health.</p>
+								<p class="fadeInRight-2 dark-color d-none d-lg-block d-xl-block">DSA grants to 10 projects based at African Universities covering 8 (eight) African countries including Benin, Egypt, Ethiopia, Kenya, Nigeria, South Africa, Tanzania, and Uganda. Covering areas oc COVID-19, Agriculture, Climatic change, Urban planning and Health.</p>
 								<div class="fadeInRight-3">
 <!--									<a href="#" class="btn btn-large">Get started now</a>-->
 								</div><!-- /.fadeIn -->
@@ -372,13 +389,14 @@
 							</div><!-- /.caption -->
 						</div><!-- /.container -->
 					</div><!-- /.item -->
-					
-					<div class="item" style="background-image: url(/assets/img/dsa-map-banner-fellowship.jpg);">
+                    
+                    
+                    <div class="item inner-header responsive-bg" style="--mobile-bg: url(/assets/img/slideshow/dsa-visiting-fellowship-mobile.jpg); --tablet-bg: url(/assets/img/slideshow/dsa-visiting-fellowship-tablet.jpg); --desktop-bg: url(/assets/img/slideshow/dsa-visiting-fellowship-desktop.jpg);">
 						<div class="container">
 							<div class="caption vertical-center text-left">
 								
 								<h1 class="fadeIn-1 dark-bg light-color"><span>DSA Visiting<br> Fellowship</span></h1>
-								<p class="fadeIn-2 dark-color">The DSA Visiting Fellowship presents exciting opportunities<br> for members of the DSA community to explore and deepen their <br>academic and professional interests through research visits to DSA <br>partner academic institutions. </p>
+								<p class="fadeIn-2 dark-color d-none d-lg-block d-xl-block">The DSA Visiting Fellowship presents exciting opportunities<br> for members of the DSA community to explore and deepen their <br>academic and professional interests through research visits to DSA <br>partner academic institutions. </p>
 								<div class="fadeIn-3">
 <!--									<a href="#" class="btn btn-large">Get started now</a>-->
 								</div><!-- /.fadeIn -->
@@ -386,8 +404,10 @@
 							</div><!-- /.caption -->
 						</div><!-- /.container -->
 					</div><!-- /.item -->
-					
-					<div class="item" style="background-image: url(/assets/img/dsa-map-banner-UGANDA.jpg);">
+                    
+                    
+                    
+                    <div class="item inner-header responsive-bg" style="--mobile-bg: url(/assets/img/slideshow/dsa-local-chapter-mobile.jpg); --tablet-bg: url(/assets/img/slideshow/dsa-local-chapter-tablet.jpg); --desktop-bg: url(/assets/img/slideshow/dsa-local-chapter-desktop.jpg);">
 						<div class="container">
 							<div class="caption vertical-top text-left">
 								

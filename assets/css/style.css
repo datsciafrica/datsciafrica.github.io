@@ -29,7 +29,7 @@ background: linear-gradient(354deg, rgba(13,133,66,1) 7%, rgba(0,0,0,0.943014705
 
 
 #mainSlider h1 {
-  font-size: 78px;
+  font-size: 60px;
   line-height: 110%;
   font-weight: 900;
   letter-spacing: 0.05em;
@@ -38,7 +38,7 @@ background: linear-gradient(354deg, rgba(13,133,66,1) 7%, rgba(0,0,0,0.943014705
   transition: font 200ms ease-out;
 }
 #mainSlider #owl-main .caption h1.light-bg, #mainSlider #owl-main .caption h1.medium-bg, #mainSlider #owl-main .caption h1.dark-bg, #mainSlider #owl-main .caption h1.tint-bg {
-  font-size: 73px;
+  font-size: 60px;
 }
 #mainSlider h4 {
   font-size: 33px;
