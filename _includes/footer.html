@@ -36,7 +36,7 @@
                                     <p><a class="scroll-link" href="{{ site.url }}{{ site.baseurl }}{{ footerlink.url }}">{{footerlink.title}}</a></p>
                                 {% endif %}
                                 {% if footerlink.url != "" and footerlink.link == true %}
-                                    <p><a class="scroll-link" href="{{ footerlink.url }}">{{footerlink.title}}</a></p>
+                                    <p><a target="_blank" class="scroll-link" href="{{ footerlink.url }}">{{footerlink.title}}</a></p>
                                 {% endif %}
                             {% endfor %}
 	                    			

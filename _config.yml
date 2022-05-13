@@ -49,9 +49,9 @@ linksBlock:
 - {url: "", title: "Programmes", link: false}
 - {url: "", title: "Resources", link: false}
 - {url: "/calendar/", title: "Calendar", link: false}
-- {url: "/dsablog/", title: "Blog", link: false}
+- {url: "http://www.datascienceafrica.org/dsablog/", title: "Blog", link: true}
 - {url: "", title: "Affiliates", link: false}
-- {url: "https://tinyurl.com/vz6ewtxc", title: "Terms", link: true}
+- {url: "https://tinyurl.com/vz6ewtxc", title: "Code of Conduct", link: true}
 #Address
 #address: "P.O. Box 20774, Nairobi 00202, Kenya"
 #phone
