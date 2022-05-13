@@ -1139,20 +1139,17 @@ p:first-letter{
     line-height:30px;
     margin: 5px;
     list-style-position:inside;
-/*    background: #ededed;*/
 }
 
 .page-body ol{
-/*    background: #9ddfef;*/
+
 }
 
 .page-body ol li{
-/*    color:#4B4742;*/
     padding-left: 30px;
     line-height:30px;
     margin: 5px;
     list-style-position:inside;
-/*    background: #ededed;*/
 }
 
 .jumbotron-image {
