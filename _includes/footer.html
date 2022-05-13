@@ -8,16 +8,20 @@
 		        		<div class="col-md-6 col-lg-3 footer-about wow fadeInUp">
 		        			<img class="logo-footer" src="{{site.baseurl}}/assets/img/dsa map banner UGANDA-04.png" alt="logo-footer" data-at2x="{{site.baseurl}}/assets/img/dsa map banner UGANDA-04.png">
 		        			<p>
-		        				We are a young company always looking for new and creative ideas to help you with our products in your everyday work.
+		        		        {% if site.footerMessage !="" %}
+                                    {{ site.footerMessage }}
+                                {% endif %}
 		        			</p>
 		        			
 	                    </div>
 		        		<div class="col-md-6 col-lg-4 offset-lg-1 footer-contact wow fadeInDown">
 		        			<h3>Contact</h3>
-		                	<p><i class="fas fa-map-marker-alt"></i> P.O. Box 20774, Nairobi 00202, Kenya</p>
-		                	<p><i class="fas fa-phone"></i> Phone: (+254) </p>
-		                	<p><i class="fas fa-envelope"></i> Email: <a href="mailto:info@datascienceafrica.org">info@datascienceafrica.org</a></p>
-		                	<p><i class="fab fa-twitter"></i>Twitter: @dsa_org</p>
+                            {% for contact in site.contactBlock %}
+                                {% if contact.info != "" %}
+                                <p><i class="{{ contact.icon }}"></i> {{ contact.title }} {{ contact.info }}</p>
+                                {% endif %}
+                            {% endfor %}
+		                	
 	                    </div>
 	                    <div class="col-md-12 col-lg-4 footer-links wow fadeInUp">
 	                    	<div class="row">
@@ -27,16 +31,23 @@
 	                    	</div>
 	                    	<div class="row">
 	                    		<div class="col-md-6">
-	                    			<p><a class="scroll-link" href="#top-content">Home</a></p>
-	                    			<p><a class="scroll-link" href="#section-programmes">Programmes</a></p>
-	                    			<p><a class="scroll-link" href="#section-resources">Resources</a></p>
-	                    			<p><a class="scroll-link" href="#section-calendar">Calendar</a></p>
+                                    {% for footerlink in site.linksBlock %}
+                                {% if footerlink.url != "" and footerlink.link == false %}
+                                    <p><a class="scroll-link" href="{{ site.url }}{{ site.baseurl }}{{ footerlink.url }}">{{footerlink.title}}</a></p>
+                                {% endif %}
+                                {% if footerlink.url != "" and footerlink.link == true %}
+                                    <p><a class="scroll-link" href="{{ footerlink.url }}">{{footerlink.title}}</a></p>
+                                {% endif %}
+                            {% endfor %}
+	                    			
 	                    		</div>
+<!--
 	                    		<div class="col-md-6">
 	                    			<p><a class="scroll-link" href="#section-4">Blog</a></p>
 	                    			<p><a href="#">Affiliates</a></p>
 	                    			<p><a href="#">Terms</a></p>
 	                    		</div>
+-->
 	                    	</div>
 	                    </div>
 		            </div>
@@ -46,7 +57,7 @@
 	        	<div class="container">
 	        		<div class="row">
 	           			<div class="col-lg-6 col-md-6 col-sm-12 footer-copyright">
-	                    	&copy; 2021 Data Science Africa - All rights reserved
+	                    	{{ site.copyright }}
 	                    </div>
 	           			<div class="col-lg-6 col-md-6 col-sm-12 footer-social">
 							<a href="#"><i class="fab fa-twitter"></i></a> 

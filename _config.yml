@@ -32,7 +32,30 @@ plugins:
   - jekyll-feed
   
 # Footer
-copyright: © 2021 Data Science Africa - All rights reserved
+#copyright Message
+copyright: © 2022 Data Science Africa - All rights reserved
+#Footer Message
+footerMessage: ""
+#Contact Block
+contactBlock:
+ - {icon: "fas fa-map-marker-alt", title: "", info: "P.O. Box 20774, Nairobi 00202, Kenya"}
+ - {icon: "fas fa-phone", title: "Phone:", info: ""}
+ - {icon: "fas fa-envelope", title: "Email:", info: "<a href='mailto:info@datascienceafrica.org'>info@datascienceafrica.org</a>"}
+ - {icon: "fab fa-twitter", title: "Twitter:", info: "@dsa_org"}
+
+#links Block
+linksBlock:
+- {url: "/", title: "Home", link: false}
+- {url: "", title: "Programmes", link: false}
+- {url: "", title: "Resources", link: false}
+- {url: "/calendar/", title: "Calendar", link: false}
+- {url: "/dsablog/", title: "Blog", link: false}
+- {url: "", title: "Affiliates", link: false}
+- {url: "https://tinyurl.com/vz6ewtxc", title: "Terms", link: true}
+#Address
+#address: "P.O. Box 20774, Nairobi 00202, Kenya"
+#phone
+#phone: ""
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
