@@ -25,6 +25,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.datascienceafrica.org" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: dsa_org
 github_username:  datsciafrica
+youtube: "https://www.youtube.com/channel/UCG_XDHclKZxP8MknQQYSw-g"
 
 # Build settings
 theme: minima
@@ -51,7 +52,7 @@ linksBlock:
 - {url: "/calendar/", title: "Calendar", link: false}
 - {url: "http://www.datascienceafrica.org/dsablog/", title: "Blog", link: true}
 - {url: "", title: "Affiliates", link: false}
-- {url: "https://tinyurl.com/vz6ewtxc", title: "Code of Conduct", link: true}
+- {url: "/assets/DSA_SOP 5 Code of Ethical Conduct.pdf", title: "Code of Conduct", link: false}
 #Address
 #address: "P.O. Box 20774, Nairobi 00202, Kenya"
 #phone
