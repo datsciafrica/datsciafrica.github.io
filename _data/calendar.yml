@@ -235,5 +235,31 @@
  url: 'https://calendar.google.com/calendar/r?eid=XzY4bzM0Y2hnNjhwM2FsMWc2c3FqZWMxbGI4bWppYzlsNzBzMzRkcGg2a3AzaWczNmNrczMwZWhnNzhvM2tjMXE3MWhtOGVqNDcxajZjZWo2Y2tyNmFlajQ3NHJqMnBiZWVjcWcgd2FueWFtYWRlbkBt&ctok=d2FueWFtYWRlbkBnbWFpbC5jb20'
  color: '#fff'
  type: 'event'
-
+-
+ title: "DSA 2022 Arusha"
+ start: '2022-07-18'
+ end: '2022-07-22'
+ url: 'https://www.datascienceafrica.org/dsa2022arusha/'
+ color: '#002044'
+ type: 'event'
+-
+ title: "Data Science Africa Uganda Launch"
+ start: '2022-07-08'
+ url: 'https://www.datascienceafrica.org/dsa2022arusha/'
+ color: '#00B75E'
+ type: 'event'
+-
+ title: "DSA 2022 Arusha - Summer School"
+ start: '2022-07-18'
+ end: '2022-07-21'
+ url: 'https://www.datascienceafrica.org/dsa2022arusha/schedule/'
+ color: '#002044'
+ type: 'event'
+-
+ title: "DSA 2022 Arusha - Workshop"
+ start: '2022-07-21'
+ end: '2022-07-23'
+ url: 'https://www.datascienceafrica.org/dsa2022arusha/schedule/'
+ color: '#002044'
+ type: 'event'
  
