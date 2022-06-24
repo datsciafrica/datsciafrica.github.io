@@ -549,7 +549,7 @@ background: linear-gradient(354deg, rgba(13,133,66,1) 7%, rgba(0,0,0,0.943014705
 
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Open Sans", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'Nexa', -apple-system, BlinkMacSystemFont, "Open Sans", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   background-color: #fff;
   position: relative; }
   body:before {
@@ -575,7 +575,7 @@ body {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: -apple-system, BlinkMacSystemFont, "Open Sans", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
+  font-family:'Nexa', -apple-system, BlinkMacSystemFont, "Open Sans", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
   color: #0d8542;
 }
 
@@ -1115,11 +1115,11 @@ p:first-letter{
 
 
 .page-body h2 {
- font-family: georgia,serif;
- font-size: 20px;
+ font-family: 'Nexa', georgia,serif;
+ font-size: 25px;
  letter-spacing: 0.1em;
  line-height: 1.5em;
- text-transform: uppercase;
+ text-transform:capitalize;
  margin: 10px;
  }
 

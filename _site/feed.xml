@@ -5,8 +5,8 @@
     <description>Conference website.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 24 Jun 2022 13:22:53 +0300</pubDate>
-    <lastBuildDate>Fri, 24 Jun 2022 13:22:53 +0300</lastBuildDate>
+    <pubDate>Fri, 24 Jun 2022 18:48:27 +0300</pubDate>
+    <lastBuildDate>Fri, 24 Jun 2022 18:48:27 +0300</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
     
       <item>
