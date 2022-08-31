@@ -19,9 +19,9 @@
 
               <div class="float-right">
 
-                <a href="#" class=""><span class="mr-2  icon icon-twitter"></span> <span class="d-none d-md-inline-block">Twitter</span></a>
+                <a href="https://twitter.com/{{ site.twitter_username }}" class=""><span class="mr-2  icon icon-twitter"></span> <span class="d-none d-md-inline-block">Twitter</span></a>
                 <span class="mx-md-2 d-inline-block"></span>
-                <a href="#" class=""><span class="mr-2 icon icon-facebook"></span> <span class="d-none d-md-inline-block">Facebook</span></a>
+                <a href="#" class=""><span class="mr-2 icon icon-youtube"></span> <span class="d-none d-md-inline-block">YouTube</span></a>
 
               </div>
 
@@ -63,7 +63,17 @@
                                     <a href="{{ site.url }}{{ site.baseurl }}{{ sublink.url }}" class="nav-link">{{ sublink.title }}</a>
                                         <ul class="dropdown">
                                             {% for subsublink in sublink.subsublinks %}
-                                                <a href="{{ site.url }}{{ site.baseurl }}{{ subsublink.url }}" class="nav-link">{{ subsublink.title }}</a>
+                                            
+                                            {% if subsublink.link == "true" %}  
+                                            <a href="{{ site.url }}{{ site.baseurl }}{{ subsublink.url }}" class="nav-link">{{ subsublink.title }}</a>
+                                           {% else %}
+                                            
+                                            <a href="{{ subsublink.url }}" class="nav-link">{{ subsublink.title }}</a>
+                                        
+                                           {% endif %}
+                                            
+                                            
+                                                
                                             {% endfor %}
                                             </ul>
                                         </li>

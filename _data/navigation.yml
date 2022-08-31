@@ -33,7 +33,11 @@
     - title: DSA Fellowship
       url: /visiting-fellowship/
     - title: DSA Local Chapters
-      url: \#
+      url: /
+      subsublinks:
+        - title: DSA Uganda
+          url: https://www.datascienceafrica.org/dsaUganda/
+          link: true
 - title: Resources
   url: \#
 - title: Calendar
