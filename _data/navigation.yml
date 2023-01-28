@@ -19,10 +19,15 @@
     - title: Grants
       url: /
       subsublinks:
-        - title: DSA Reseach Awards 2020
-          url: /dsa-research-awards-2020/
+        - title: African AI Research Awards 2022
+          url: /african-ai-research-awards-2022/
+        - title: DSA Reseach Awards 2022 Early Career
+          url: /dsa-research-award-2022-early-career/
         - title: DSA Reseach Awards 2022 Junior Researchers
           url: /dsa-research-award-2022-junior-researchers/
+        - title: DSA Reseach Awards 2020
+          url: /dsa-research-awards-2020/
+        
         - title: DSA Reseach Awards 2022 Early Career
           url: /dsa-research-award-2022-early-career/
         
