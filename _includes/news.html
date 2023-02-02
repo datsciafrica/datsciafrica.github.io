@@ -15,11 +15,17 @@
 				<div class="row">
 					
 					<div class="col-md-12">
+                        
 						<div class="featured-carousel owl-carousel">
+                            
                     {% assign events = site.data.events | sort_natural: "startdate" | reverse %}       
                     {% for event in events %}
 							<div class="item mr-4">
+                                
+                                
+                                
 								<div class="blog-entry">
+                                    
 		                          <a target="_blank" href="{{ event.site }}" class="block-20 d-flex align-items-start text border" style="background-image: url('{{site.baseurl}}{{ event.image }}');">
 								  <div class="meta-date text-center p-2">
                                   {% assign datesplit = event.startdate |date: "%d, %b, %Y" |split: ", " %}
@@ -32,6 +38,9 @@
 		                          </a>
 		                      <div class="text border border-top-0 p-4">
 		                      <h3 class="heading"><a target="_blank" href="{{ event.site }}">{{ event.venue }}</a></h3>
+                                  {% if event.new == true%}
+                                  <span class="ribbon1"><span>New</span></span>
+                                  {% endif %}
 <!--		                      <p>{{ event.theme }}</p>-->
 		                      </div>
 		                      </div>
