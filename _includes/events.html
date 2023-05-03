@@ -1,13 +1,8 @@
-<div id="events" class="events" style="background-color: #efefef;padding-top:50px;padding-bottom:50px" >
-  <div class="container-fluid" >
-    <h1>Recent Events</h1>
-    <ul>
-    {% for repository in site.github.public_repositories reversed %}{% if repository.has_pages %}{% if repository.name contains 'dsa' %}{% unless repository.name contains 'stub' %}<li><a href='{{ repository.name | prepend: site.baseurl | prepend: '/' | prepend: site.url }}'>{{ repository.name | upcase }}</a> {{ repository.description }} </li>
-{% endunless %}{% endif %}{% endif %}{% endfor %}
-
-    {% for repository in site.github.public_repositories reversed %}{% if repository.has_pages %}{% if repository.name contains 'gpss' %}{% unless repository.name contains 'stub' %}<li><a href='{{ repository.name | prepend: site.baseurl | prepend: '/' | prepend: site.url }}'>{{ repository.name | upcase }}</a> {{ repository.description }} </li>
-{% endunless %}{% endif %}{% endif %}{% endfor %}
-    </ul>
-  </div>
-</div>
+<section class="page-body">
+    <div class="container">
+        <div class="row">
+            <img src="{{site.baseurl}}/assets/img/dsainAfrica.png">
+        </div>
+    </div>
+</section>
     
