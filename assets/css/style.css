@@ -1345,3 +1345,18 @@ strong{
  border-radius: 8px 8px 0 0;
  background: #000000;
 }
+
+/*Heading h2 for the slide show captions*/
+#mainSlider #owl-main .caption h2.light-bg, #mainSlider #owl-main .caption h2.medium-bg, #mainSlider #owl-main .caption h2.dark-bg, #mainSlider #owl-main .caption h2.tint-bg {
+  font-size: 40px;
+}
+#owl-main .caption h2 span {
+  padding: 0.25em 0;
+  line-height: 180%;
+}
+#owl-main .caption h2.dark-bg span, #owl-main .caption p.dark-bg span {
+  background: #0d8542;
+  box-shadow: -0.5em 0 0 #0d8542, 0.5em 0 0 #0d8542;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
