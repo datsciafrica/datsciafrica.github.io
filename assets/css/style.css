@@ -1311,13 +1311,13 @@ strong{
   height: 0;
   border-left: 53px solid transparent;
   border-right: 53px solid transparent;
-  border-top: 10px solid #444444;
+  border-top: 10px solid #0d8542;
 }
 .ribbon1 span {
   position: relative;
   display: block;
   text-align: center;
-  background: #444444;
+  background: #0d8542;
   font-size: 14px;
   line-height: 1;
   padding: 12px 8px 10px;
@@ -1335,7 +1335,7 @@ strong{
  width: 6px;
  left: -6px;
  top: 0;
- background: #444444;
+ background: #0d8542;
 }
 .ribbon1 span:after {
  height: 6px;
@@ -1360,3 +1360,5 @@ strong{
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
 }
+
+
