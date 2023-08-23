@@ -6,7 +6,7 @@
  theme: "TBD"
  site: "https://www.datascienceafrica.org/dsa2023kigali/"
  position: "11<sup>th</sup>"
- new: true
+ new: false
 -
  title: "DSA 2022 Arusha"
  startdate: "2022-07-18"
