@@ -2,7 +2,22 @@
     <div class="container">
         <div class="row">
         {% assign awards = site.data.AfricanAIResearchAwards2022 %}
-         {% for award in awards %}   
+           
+            <div class="container">
+            <table class="table table-striped table-hover table-class hidden-sm hidden-xs" id= "table-id">   
+           <thead>
+               
+               <tr class="bg-dark text-white">
+                   <th>Name</th>
+                   <th>Title</th>
+                   <th>Institution</th>
+                   <th>Country</th>
+                   <th>Category</th>
+               </tr>
+           </thead> 
+           <tbody>
+               {% for award in awards %} 
+<!--
             <div class="col-lg-4 mb-1 mt-1 d-flex align-items-stretch">
             <div class="card" >
   <img src="{{ site.baseurl }}/assets/img/{{ page.image }}" class="card-img-top" alt="...">
@@ -10,13 +25,11 @@
     <h5 class="card-title">{{ award.pi }}</h5>
     <p class="card-text">{{ award.title }}</p>
   </div>
-<!--
   <ul class="list-group list-group-flush">
     <li class="list-group-item">An item</li>
     <li class="list-group-item">A second item</li>
     <li class="list-group-item">A third item</li>
   </ul>
--->
   <div class="card-body">
       {{award.institution}} 
   </div>
@@ -25,7 +38,22 @@
   </div>
 </div>
             </div>  
+-->
+<tr>
+                    <td>{{ award.pi }}</td>
+                    <td>{{ award.title }}</td>
+                    <td>{{ award.institution }}</td>
+                    <td>{{ award.country }}</td> 
+                    <td>{{ award.researcher }}</td>
+               </tr>
+            
+           
+            
 {% endfor %}
+            
+           </tbody>
+            </table> 
+            </div> 
             
             
             

@@ -1,0 +1,154 @@
+<section class="page-body">
+    <div class="container">
+        <div class="row">
+<!--
+        {% assign awards = site.data.AAIRAProjectPresentationSchedule %}
+         {% for award in awards %} 
+            <div class="row">
+            <div class="col-lg-12">
+                <h1 style="display: block">{{ award.dateReadable }}</h1>
+            </div>
+            </div>
+            {% for project in award.projects %}
+            
+            <div class="col-lg-4 mb-1 mt-1 d-flex align-items-stretch">
+            <div class="card" >
+  <img src="{{ site.baseurl }}/assets/img/{{ page.image }}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">{{ project.name }}</h5>
+    <p class="card-text">{{ project.title }}</p>
+  </div>
+-->
+<!--
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">An item</li>
+    <li class="list-group-item">A second item</li>
+    <li class="list-group-item">A third item</li>
+  </ul>
+-->
+<!--
+  <div class="card-body">
+      {{project.institution}} 
+  </div>
+  <div class="card-footer">
+    <small class="text-muted"> {{ project.country}}</small>
+  </div>
+</div>
+            </div>  
+
+            {% endfor %}
+         {% endfor %}
+-->
+            
+         
+         {% assign awards = site.data.AAIRAProjectPresentationSchedule %}
+         {% for award in awards %} 
+            <hr>
+            <div class="container">
+            <table class="table table-striped table-hover table-class hidden-sm hidden-xs" id= "table-id">   
+           <thead>
+               <tr>
+                   <th colspan="5"><h1>{{ award.dateReadable }}</h1></th>
+               </tr>
+               <tr class="bg-dark text-white">
+                   <th>Name</th>
+                   <th>Title</th>
+                   <th>Institution</th>
+                   <th>Country</th>
+                   <th>Category</th>
+               </tr>
+           </thead> 
+           <tbody>
+            {% for project in award.projects %}   
+                <tr>
+                    <td>{{ project.name }}</td>
+                    <td>{{ project.title }}</td>
+                    <td>{{project.institution}}</td>
+                    <td>{{ project.country}}</td>
+                    <td>{{ project.category}}</td>
+               </tr>
+            
+            {% endfor %}
+            </tbody>
+            </table> 
+            </div>
+            <hr>
+         {% endfor %}   
+           
+        </div>
+    </div>
+
+</section>
+<br>	
+<script type="text/javascript">
+            responsiveTable ('.table');
+				//responsiveTable ('.table-class');
+				//responsiveTable ('#table-id');
+
+
+				balanceSize();	// on load get balance on size if the browser has small screen
+	
+
+// get responsive table for small screens 
+
+/*  the concept for that tool
+* if the screen width lt 1000 the table hide the table ,
+* and for each td in table row append two bootstrap div col-xs-6 one for td and the other for the opposite th 
+*
+* Now You have the concept so you can develop your own code :) and control on xs divs view
+*/
+		function responsiveTable (table){
+
+				var RowNum = 1;										// to append row number before each data
+
+		 		$(table+' tr:gt(0)').each(function(){				// select all table rows except table header row
+
+		 			// append the header for row number to the small table 
+		 			$('.table-xs').append('<div class="row-header"> <h5> Row Number : '+RowNum+'</h5> </div>');
+
+					$(this).find('td').each(function(){		// select all table data 
+
+						// for each td get it's equivalent header and append header text to the small table header div
+						$('.table-xs').append('<div class="col-xs-6 header">'+$('th').eq($(this).index()).text()+'</div>');
+					
+						// for each td get it's text and append it to the small table data div
+						$('.table-xs').append('<div class="col-xs-6 data">'+$(this).text()+'</div>');
+				
+					});
+					
+					RowNum++;
+				
+		 		});
+
+		 	}
+				 balanceSize();
+
+
+
+		 		// IMPORTANT on resize fun will be excessive load on your processor if you have many rows 
+
+		$(window).resize(function(){			
+		 	 if ($(window).width() < 1000 ){					// to work when shown the small table 	
+		 						balanceSize();				// balance the size on resize 
+		 						}
+		 	});
+
+
+	
+		// balance size will make all headers height equal data height !!! Just to fill the BG color ><
+
+ 	function balanceSize(){
+				var i = 0 ;		
+				$('.header').each(function(){
+
+					$(this).height($('.data').eq(i).height());
+
+					i++;
+				});
+			}
+
+/*
+* Developed By Yasser Mas 
+*/
+			
+</script>

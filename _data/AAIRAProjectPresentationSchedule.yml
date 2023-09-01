@@ -1,0 +1,158 @@
+-
+ date: "2023-09-08"
+ dateReadable: "September 08, 2023"
+ projects:
+  - {
+     name: "Wayne Steven Okello",
+     title: "A Robust Cost-Effective Machine Learning-Based Diagnostics Tool for Bean Plants Diseases",
+     institution: "Makerere University",
+     country: "Uganda",
+     category: "Junior"
+  }
+  - {
+    name: "Bonface Munyoki Kilyungi",
+    title: "Unlocking Biomedical Data for AI Health Research in Africa Using GeneNetwork as an Example",
+    institution: "Strathmore University",
+    country: "Kenya",
+    category: "Junior"
+  }
+  - {
+    name: "Andualem Aklilu Tesfaye",
+    title: "Developing Reliable Wheat Yield Prediction Method through Integration of Automated Machine Learning Methods with Crop Models and Bio- physical Predictors",
+    institution: "Vision Food and Agricultural Policy (FAP Consulting)",
+    country: "Ethiopia",
+    category: "DSA Research Award"
+  }
+  - {
+    name: "Emmanuel Annor",
+    title: "Revisiting the application of extreme value theory to the management of a hydroelectric dam",
+    institution: "University of Ghana",
+    country: "Ghana",
+    category: "Junior"
+  }
+  - {
+    name: "Yimer Assefa Yimam",
+    title: "Evaluation of the skill of seasonal rainfall and temperature forecasts from global prediction models over Ethiopia",
+    institution: "University of Nairobi",
+    country: "Kenya",
+    category: "Junior"
+  }
+-
+ date: "2023-09-15"
+ dateReadable: "September 15, 2023"
+ projects:
+  - {
+    name: "AHLONSOU Apolline Jennifer",
+    title: "Contribution of machine learning and remote sensing for the improvement of groundwater quality assessment in the municipality of ZaKpota (southern Benin)",
+    institution: "University of Abomey-Calavi",
+    country: "Benin",
+    category: "Junior"
+  }
+  - {
+    name: "Dr. Sharon Kiprotich",
+    title: "Preparation and investigation of multifunctional materials based on transparent conducting oxides for possible solar cell application",
+    institution: "Murang’a University of Technology",
+    country: "Kenya",
+    category: "Early Career"
+  }
+  - {
+    name: "Sunday Adeola Ajagbe",
+    title: "Development of Yorùbá and Pidgin Speech Database for Antenatal Orientation",
+    institution: "Ladoke Akintola University of Technology",
+    country: "Nigeria",
+    category: "Junior"
+  }
+  - {
+    name: "Ahmed Kehinde Usman",
+    title: "Application of Spectral Analysis Technique and Machine Learning in Evaluation of Geothermal Energy Resource Potential in North - Eastern Nigeria",
+    institution: "Ahmadu Bello University",
+    country: "Nigeria",
+    category: "Junior"
+  }
+  - {
+    name: "Mercy Mawia Mulwa",
+    title: "Explainable Machine Learning Approach on Sensor Based Human Gait Analysis for Assistive Device Model Prediction and 3D design",
+    institution: "Jomo Kenyatta University of Agriculture and Technology (JKUAT)",
+    country: "Kenya",
+    category: "Junior"
+  }
+-
+ date: "2023-09-22"
+ dateReadable: "September 22, 2023"
+ projects:
+  - {
+    name: "Saminu Mohammad Aliyu",
+    title: "A Hate and Offensive Speech Detection Model for Nigerian Languages",
+    institution: "Bayero University",
+    country: "Nigeria",
+    category: "Junior"
+  }
+  - {
+    name: "Dr. Godliver Owomugisha",
+    title: "Development of 3-D smartphone add-on spectrometer for field-based early detection of disease",
+    institution: "Makerere University",
+    country: "Uganda",
+    category: "DSA Research Award"
+  }
+  - {
+    name: "Angela Muthama",
+    title: "Cypress Decline in Rift Valley Ecoregion of Kenya",
+    institution: "Kenya Forestry Research Institute (KEFRI)",
+    country: "Kenya",
+    category: "Junior"
+  }
+  - {
+    name: "Edna Macharia",
+    title: "A GIS Approach for the Identification and Digitization of Fish Farms in Central and Western Kenya for Sustainable Production and Management",
+    institution: "Kenya Agricultural & Livestock Research Organization (KALRO)",
+    country: "Kenya",
+    category: "Junior"
+  }
+  - {
+    name: "Dr. Hellen Maziku",
+    title: "The role of AI in Detection and Prediction of Advanced Persistent Threats (APTs) in Distributed Workforces",
+    institution: "University of Dar es Salaam",
+    country: "Tanzania",
+    category: "Early Career"
+  }
+-
+ date: "2023-09-29"
+ dateReadable: "September 29, 2023"
+ projects:
+  - {
+    name: "Dr. Kadeghe Fue",
+    title: "Prediction of the Rain - Fed Maize yield in Tanzania using Time series machine learning models (TanPredikt)",
+    institution: "Sokoine University of Agriculture",
+    country: "Tanzania",
+    category: "Early Career"
+  }
+  - {
+    name: "Manasseh Samantha Matemba",
+    title: "Investigating Impacts of riverine flow regimes on aquatic biodiversity: A case study of Ruo River an Afromontane freshwater ecosystem in Mulanje, Malawi",
+    institution: "Malawi University of Science and Technology of Thyolo",
+    country: "Malawi",
+    category: "Junior"
+  }
+  - {
+    name: "Rosemary Nalwanga",
+    title: "An Edge AI-Based Smart Irrigation System",
+    institution: "University of Rwanda",
+    country: "Rwanda",
+    category: "Junior"
+  }
+  - {
+    name: "Samson Ooko",
+    title: "TinyML Based Self Diagnostic Kit for Respiratory Diseases",
+    institution: "University of Rwanda",
+    country: "Rwanda",
+    category: "Junior"
+  }
+  - {
+    name: "Dr. Alex Barakabitze",
+    title: "Sustainable Smart Farm –Scale Crops Yield Prediction using Machine Learning in Internet –of-Agro-Things in Tanzania",
+    institution: "Sokoine University of Agriculture",
+    country: "Rwanda",
+    category: "Early Career"
+  }
+  
+ 
