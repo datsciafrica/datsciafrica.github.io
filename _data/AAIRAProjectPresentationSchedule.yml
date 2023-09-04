@@ -10,18 +10,18 @@
      category: "Junior"
   }
   - {
-    name: "Bonface Munyoki Kilyungi",
-    title: "Unlocking Biomedical Data for AI Health Research in Africa Using GeneNetwork as an Example",
-    institution: "Strathmore University",
-    country: "Kenya",
-    category: "Junior"
-  }
-  - {
     name: "Dr. Godliver Owomugisha",
     title: "Development of 3-D smartphone add-on spectrometer for field-based early detection of disease",
     institution: "Makerere University",
     country: "Uganda",
     category: "DSA Research Award"
+  }
+  - {
+    name: "Dr. Alex Barakabitze",
+    title: "Sustainable Smart Farm –Scale Crops Yield Prediction using Machine Learning in Internet –of-Agro-Things in Tanzania",
+    institution: "Sokoine University of Agriculture",
+    country: "Tanzania",
+    category: "Early Career"
   }
   - {
     name: "Emmanuel Annor",
@@ -148,11 +148,12 @@
     category: "Junior"
   }
   - {
-    name: "Dr. Alex Barakabitze",
-    title: "Sustainable Smart Farm –Scale Crops Yield Prediction using Machine Learning in Internet –of-Agro-Things in Tanzania",
-    institution: "Sokoine University of Agriculture",
-    country: "Rwanda",
-    category: "Early Career"
+    name: "Bonface Munyoki Kilyungi",
+    title: "Unlocking Biomedical Data for AI Health Research in Africa Using GeneNetwork as an Example",
+    institution: "Strathmore University",
+    country: "Kenya",
+    category: "Junior"
   }
+  
   
  
