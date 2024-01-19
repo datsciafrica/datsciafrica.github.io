@@ -14,3 +14,5 @@ gem 'github-pages'
 #  gem "jekyll-sitemap"
 #end
 
+
+gem "webrick", "~> 1.8"
