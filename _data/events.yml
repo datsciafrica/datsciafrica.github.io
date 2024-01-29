@@ -1,4 +1,13 @@
 -
+ title: "DSA 2024 Nyeri"
+ startdate: "2024-06-03"
+ venue: "Dedan Kimathi University of Technology, Nyeri, Kenya"
+ image: "/assets/img/Kenya.png"
+ theme: "TBD"
+ site: "https://www.datascienceafrica.org/dsa2024nyeri/"
+ position: "12<sup>th</sup>"
+ new: false
+-
  title: "DSA 2023 Kigali"
  startdate: "2023-05-18"
  venue: "University of Rwanda, Kigali, Rwanda"
