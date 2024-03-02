@@ -27,6 +27,7 @@ twitter_username: dsa_org
 github_username:  datsciafrica
 youtube: "UCG_XDHclKZxP8MknQQYSw-g"
 linkedin: "data-science-africa-dsa"
+dsalogo: "dsalogo.png"
 # Build settings
 theme: minima
 plugins:
