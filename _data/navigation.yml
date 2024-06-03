@@ -41,10 +41,10 @@
       url: /events/
     - title: DSA Monthly Seminar
       url: \#
-    - title: DSA Fellowship
-      url: /visiting-fellowship/
-    - title: DSA Fellowship 2024
-      url: /visiting-fellowship-2024/
+    - title: DSA Fellowship One
+      url: /visiting-fellowship-one/
+    - title: DSA Fellowship Two
+      url: /visiting-fellowship-two/
     - title: DSA Local Chapters
       url: /
       subsublinks:
