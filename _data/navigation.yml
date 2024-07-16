@@ -3,16 +3,18 @@
 - title: About Us
   url: /aboutus/
   sublinks:
+    - title: Vision
+      url: /aboutus/
+    - title: Purpose
+      url: /aboutus/#purpose
+    - title: Core Values
+      url: /aboutus/#core_values
     - title: Who we are
       url: /aboutus/#who-we-are
-    - title: Foresight
-      url: /aboutus/#foresight
-    - title: Achievements
-      url: /aboutus/#achievements
-    - title: Core Tenets
-      url: /aboutus/#tenets
     - title: Legal Status
       url: /aboutus/#legal
+    - title: DSA Strategic Plan
+      url: /aboutus/#strategicPlan
 - title: Programmes
   url: \#
   sublinks:
