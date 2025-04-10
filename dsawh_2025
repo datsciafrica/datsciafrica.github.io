@@ -3,18 +3,18 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
-title: Data Science to Advance Women’s Health Fellowship
+title: Launch of the Data Science to Advance Women’s Health Fellowship Program
 color:  #000000
 image: dsa_banner.jpg
 subtitle: 
-permalink: /womens-health-fellowship/
+permalink: /dsawh_2025/
 ---
 
 
 
 {% include top-section.html %}
 
-{% include womens-health-fellowship.html %}
+{% include DSAWH_Fellowship_Program.html %}
 
 
 
