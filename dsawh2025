@@ -16,7 +16,7 @@ permalink: /dsawh2025/
 
 {% include top-section.html %}
 
-{% include DSAWH-Fellowship-Program.html %}
+{% include dsawh-fellowship-program.html %}
 
 
 
