@@ -55,7 +55,7 @@
       url: /
       subsublinks:
         - title: DSA Uganda
-          url: https://www.datascienceafrica.org/dsaUganda/
+          url: https://archive.datascienceafrica.org/dsaUganda/
           link: true
 - title: Resources
   url: \#
@@ -64,5 +64,5 @@
 - title: Contact Us
   url: \#
 - title: Blog
-  url: http://www.datascienceafrica.org/dsablog/
+  url: http://archive.datascienceafrica.org/dsablog/
   link: true
