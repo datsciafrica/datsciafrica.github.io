@@ -22,7 +22,7 @@ title: Data Science Africa
 email: info@datascienceafrica.org
 description: "Conference website."
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.datascienceafrica.org" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://archive.datascienceafrica.org" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: dsa_org
 github_username:  datsciafrica
 youtube: "UCG_XDHclKZxP8MknQQYSw-g"
@@ -51,7 +51,7 @@ linksBlock:
 - {url: "", title: "Programmes", link: false}
 - {url: "", title: "Resources", link: false}
 - {url: "/calendar/", title: "Calendar", link: false}
-- {url: "http://www.datascienceafrica.org/dsablog/", title: "Blog", link: true}
+- {url: "http://archive.datascienceafrica.org/dsablog/", title: "Blog", link: true}
 - {url: "", title: "Affiliates", link: false}
 - {url: "/assets/DSA_SOP 5 Code of Ethical Conduct.pdf", title: "Code of Conduct", link: false}
 #Address
