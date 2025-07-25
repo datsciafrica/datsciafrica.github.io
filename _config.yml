@@ -20,8 +20,8 @@
 
 title: Data Science Africa
 email: info@datascienceafrica.org
-description: "Conference website."
-baseurl: "" # the subpath of your site, e.g. /blog
+description: "Conference Website"
+baseurl: "http://archive.datascienceafrica.org" # the subpath of your site, e.g. /blog
 url: "http://archive.datascienceafrica.org" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: dsa_org
 github_username:  datsciafrica
